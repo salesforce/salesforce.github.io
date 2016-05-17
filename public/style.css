@@ -1,0 +1,159 @@
+html {
+    background-color: rgb(6, 28, 63);
+}
+
+header {
+    background-color: rgb(2, 112, 210);
+    color: white;
+}
+
+header > img {
+    margin-right: 1rem;
+}
+
+nav {
+    background-color: rgb(6, 28, 63);
+    color: #A8B7C7; 
+}
+
+header,
+nav,
+main,
+aside {
+    padding: 1rem 2rem;
+}
+
+main {
+    background-color: rgb(222, 222, 222);
+    padding-bottom: 50px;
+    margin-bottom: -40px;
+}
+
+main > .slds-grid {
+    margin: 1rem 0;
+}
+
+main .featured,
+main .contrib {
+    text-align: center;
+}
+
+main .slds-col {
+    max-width: 50%;
+    padding: 0 25px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header > h1 {
+    font-weight: lighter;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+main h2 {
+    margin: 1.5rem 0;
+}
+
+footer > h2 {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+nav ul > li {
+    margin: 0 8px;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 10px;
+}
+
+main ul > li img {
+    max-height: 75px;
+    min-width: 100px;
+    max-width: 175px;
+}
+
+ol { margin: 0 3rem; }
+
+ol > li { margin: 1rem 0 1rem 0; }
+
+.title {
+    position: relative;
+}
+
+.title > .wrapper {
+    height: 30px;
+    width: 100%;
+    border: 2px solid #061C2F;
+    position: relative;
+}
+
+.title > .wrapper > h3 {
+    position: relative;
+    background-color: #dedede;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.featured .title {
+    top: -30px;
+}
+
+.featured .title > .wrapper {
+    border-top-width: 0;
+}
+
+.featured .title > .wrapper > h3 {
+    top: 1.2rem;
+}
+
+.contrib {
+    position: relative;
+    top: -30px;
+}
+
+.contrib .title {
+    top: 30px;
+}
+
+.contrib .title > .wrapper {
+    border-bottom-width: 0;
+}
+
+.contrib .title > .wrapper > h3 {
+    top: -.6rem;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+footer ul {
+    display: block;
+    margin: 50px 0;
+}
+
+footer > div {
+    text-align: center;
+}
+
+footer .copyright {
+    font-size: 0.8em;
+    color: #A8B7C7;
+    padding: 10px 0;
+    background-color: rgb(6, 28, 63);
+}
