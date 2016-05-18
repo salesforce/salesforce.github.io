@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="170"
-   height="99.224258"
+   width="114.66798"
+   height="70"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -51,7 +51,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
      inkscape:cx="369.37888"
-     inkscape:cy="138.87902"
+     inkscape:cy="138.87901"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,7 +72,7 @@
        enabled="true"
        snapvisiblegridlinesonly="true"
        originx="-102.40532"
-       originy="-615.0084" />
+       originy="-615.00841" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -91,19 +91,19 @@
      id="layer2"
      inkscape:label="background"
      style="display:inline"
-     transform="translate(-102.40532,-338.12951)" />
+     transform="translate(-102.40532,-367.35376)" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="sky"
      style="display:inline"
-     transform="translate(-102.40532,-338.12951)" />
+     transform="translate(-102.40532,-367.35376)" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="raft"
      style="display:inline"
-     transform="translate(-102.40532,-338.12951)">
+     transform="translate(-102.40532,-367.35376)">
     <g
        style="display:inline"
        id="g3105"
@@ -156,11 +156,11 @@
      id="layer3"
      inkscape:label="clouds"
      style="display:inline"
-     transform="translate(-102.40532,-338.12951)" />
+     transform="translate(-102.40532,-367.35376)" />
   <g
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="text"
      style="display:inline"
-     transform="translate(-102.40532,-338.12951)" />
+     transform="translate(-102.40532,-367.35376)" />
 </svg>
