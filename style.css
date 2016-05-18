@@ -59,6 +59,10 @@ footer {
     font-size: .75rem;
 }
 
+footer .legal {
+    padding-bottom: 0;
+}
+
 nav ul {
     min-width: 75px;
     text-align: right;
