@@ -45,8 +45,9 @@ main ol > li {
 }
 
 ul.contrib > li > a > img {
-    max-width: 200px;
-    height: 70px;
+    max-width: 175px;
+    min-width: 100px;
+    max-height: 75px;
 }
 
 main > div.light {
