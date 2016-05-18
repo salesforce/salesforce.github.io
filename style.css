@@ -23,7 +23,7 @@ nav,
 footer {
     background-color: rgb(6, 28, 63);
     width: 100%;
-    color: #A8B7C7; 
+    color: #A8B7C7;
 }
 
 nav ul { width: 100px; }
@@ -31,11 +31,12 @@ nav ul > li {
     margin: 0 8px;
 }
 
-ul > li {
+ul.inline > li,
+ul.contrib > li {
     display: inline-block;
 }
 
-main { 
+main {
     background-color: rgb(222, 222, 222);
 }
 
