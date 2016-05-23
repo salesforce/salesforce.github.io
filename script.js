@@ -8,12 +8,14 @@
 
 'use strict';
 
-// Invoke the provided callback once the document has completed loading.
-var onDocumentLoad = function(loaded) {
-  if (document.readyState === 'complete') {
+// Invoke the provided callback once the DOM has completed loading
+// (CSS and other resources might still be loading).
+var onDOMLoad = function(loaded) {
+  if (document.readyState === 'interactive' ||
+      document.readyState === 'complete') {
     setTimeout(loaded, 0);
   } else {
-    document.addEventListener('load', loaded);
+    document.addEventListener('DOMContentLoaded', loaded);
   }
 };
 
@@ -56,7 +58,7 @@ var loadMediumFeed = function(user, processItems) {
 // Fetch the feed for https://medium.com/salesforce-open-source, then inject
 // the top five items into #recent-posts.
 loadMediumFeed('salesforce-open-source', function(items) {
-  onDocumentLoad(function() {
+  onDOMLoad(function() {
     var recentPosts = document.getElementById('recent-posts');
     recentPosts.innerHTML = '';
     items.slice(0, 5).forEach(function(item) {
