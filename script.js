@@ -59,19 +59,36 @@ var loadMediumFeed = function(user, processItems) {
 // the top five items into #recent-posts.
 loadMediumFeed('salesforce-open-source', function(items) {
   onDOMLoad(function() {
+    var title = function() {
+      let div = document.createElement('div');
+      div.className = 'title';
+      let h3 = document.createElement('h3');
+      h3.innerHTML = 'Recent Posts';
+      div.appendChild(h3);
+      return div;
+    };
+
+    var list = function() {
+      var ol = document.createElement('ol');
+      items.slice(0, 5).forEach(function(item) {
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = item.link;
+        a.innerHTML = item.title;
+        li.appendChild(a);
+        var div = document.createElement('div');
+        div.innerHTML = item.date.toLocaleDateString(undefined,
+          {month: 'long', day: 'numeric', year: 'numeric'});
+        li.appendChild(div);
+        ol.appendChild(li);
+      });
+      return ol;
+    };
+
     var recentPosts = document.getElementById('recent-posts');
+    recentPosts.className = 'slds-col slds-m-around--small';
     recentPosts.innerHTML = '';
-    items.slice(0, 5).forEach(function(item) {
-      var li = document.createElement('li');
-      var a = document.createElement('a');
-      a.href = item.link;
-      a.innerHTML = item.title;
-      li.appendChild(a);
-      var div = document.createElement('div');
-      div.innerHTML = item.date.toLocaleDateString(undefined,
-        {month: 'long', day: 'numeric', year: 'numeric'});
-      li.appendChild(div);
-      recentPosts.appendChild(li);
-    });
+    recentPosts.appendChild(title());
+    recentPosts.appendChild(list());
   });
 });
