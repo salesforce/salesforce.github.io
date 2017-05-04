@@ -17,7 +17,14 @@ header > h1 {
     font-size: 2rem;
 }
 
-h2 { font-size: 1.25rem; }
+body {
+  background-color: #cccccc;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
 
 nav,
 footer {
@@ -36,13 +43,90 @@ ul.contrib > li {
     display: inline-block;
 }
 
+ul.vertical {
+  margin-top: 20px;
+}
+
+ul.vertical > li {
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+#recent-posts > ol > li {
+  margin: 10px;
+}
+
+#recent-posts > ol > li > div {
+  color: #ffffff;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.logo > img {
+  height: 130px;
+}
+
+.logo > span {
+  margin-left: 20px;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.top {
+   background-image: url(assets/images/top_background.png);
+   background-size: contain;
+   width: 100%;
+   height: 0;
+   background-repeat: no-repeat;
+   padding-bottom: 32.12%;
+   padding-left: 320px;
+   padding-right: 320px;
+   color: #ffffff;
+   font-size: 18px;
+}
+
+.top > p {
+  padding-top: 40px;
+}
+
 main {
-    background-color: rgb(222, 222, 222);
+    background-color: #109949;
+}
+
+main > div {
+  background-image: url(assets/images/zig_zag.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 200px;
+}
+
+main > div > div {
+  padding-left: 320px;
+  padding-right: 200px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+main > div > div > div {
+  padding-top: 20px;
 }
 
 main ul > li,
 main ol > li {
-    margin: .5rem 1rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 ul.contrib > li > a > img {
