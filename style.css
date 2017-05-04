@@ -82,15 +82,20 @@ a:hover {
   color: #ffffff;
 }
 
+p > a {
+  text-decoration: underline;
+}
+
 .top {
    background-image: url(assets/images/top_background.png);
    background-size: contain;
    width: 100%;
    height: 0;
    background-repeat: no-repeat;
-   padding-bottom: 32.12%;
+   padding-bottom: 31.9%;
    padding-left: 320px;
    padding-right: 320px;
+   margin-top: 1px;
    color: #ffffff;
    font-size: 18px;
 }
@@ -106,19 +111,19 @@ main {
 main > div {
   background-image: url(assets/images/zig_zag.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: 200px;
+  background-size: 100% 380px;
+  background-position-y: 100px;
 }
 
 main > div > div {
   padding-left: 320px;
   padding-right: 200px;
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 main > div > div > div {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 main ul > li,
