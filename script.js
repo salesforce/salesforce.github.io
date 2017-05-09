@@ -55,19 +55,10 @@ var loadMediumFeed = function(user, processItems) {
   req.send();
 };
 
-// Fetch the feed for https://medium.com/salesforce-open-source, then inject
+// Fetch the feed for https://medium.com/salesforce-engineering/tagged/open-source, then inject
 // the top five items into #recent-posts.
-loadMediumFeed('salesforce-open-source', function(items) {
+loadMediumFeed('salesforce-engineering/tagged/open-source', function(items) {
   onDOMLoad(function() {
-    var title = function() {
-      let div = document.createElement('div');
-      div.className = 'title';
-      let h3 = document.createElement('h3');
-      h3.innerHTML = 'Recent Posts';
-      div.appendChild(h3);
-      return div;
-    };
-
     var list = function() {
       var ol = document.createElement('ol');
       items.slice(0, 5).forEach(function(item) {
@@ -88,7 +79,6 @@ loadMediumFeed('salesforce-open-source', function(items) {
     var recentPosts = document.getElementById('recent-posts');
     recentPosts.className = 'slds-col slds-m-around--small';
     recentPosts.innerHTML = '';
-    recentPosts.appendChild(title());
     recentPosts.appendChild(list());
   });
 });

@@ -6,6 +6,8 @@
     <title>Salesforce Open Source</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/salesforce-lightning-design-system.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://c2.sfdcstatic.com/etc/designs/sfdc-www/en_us/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://c2.sfdcstatic.com/etc/designs/sfdc-www/en_us/favicon.ico">
     <script src="script.js" async></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -19,82 +21,62 @@
   </head>
 
   <body>
-    <header class="slds-text-heading slds-p-around--large">
-      <img src="assets/images/logos/salesforce.svg" alt="Salesforce"><h1>open source</h1>
-    </header>
     <nav class="slds-p-around--medium">
       <div class="slds-grid">
-        <div class="slds-col">
-          Salesforce is powered by open source. <a href="https://medium.com/salesforce-open-source">Read More</a>
+        <div class="slds-col logo">
+          <img src="assets/images/logos/salesforce.svg" alt="Salesforce">
+          <span>open source</span>
         </div>
         <div class="slds-col--bump-left">
           <ul class="inline">
-            <li><a href="//github.com/salesforceeng"><img src="assets/images/logos/github.png"></a></li>
-            <li><a href="https://medium.com/salesforce-open-source"><img src="assets/images/logos/medium.svg"></a></li>
+            <li><a href="//github.com/salesforce"><img src="assets/images/logos/github.png"></a></li>
+            <li><a href="https://medium.com/salesforce-engineering"><img src="assets/images/logos/medium.svg"></a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <main class="slds-p-around--large">
+    <div class="top">
+      <p>Salesforce uses and contributes to tons of Open Source.  We're committed to not just consume Open Source, but to contribute back our modifications to Open Source projects.  We'll also Open Source infrastructure and tools which are necessary, but indirect to our business, like we've done with <a href="https://github.com/salesforce/argus">Argus</a> - a time-series database.</p>
+      <p>Learn more about Open Source at Salesforce below or on our <a href="https://medium.com/salesforce-engineering/tagged/open-source">engineering blog</a>.</p>
+    </div>
+
+    <main>
       <div>
-        <h2>Featured Projects</h2>
-        <div class="slds-grid slds-wrap slds-text-align--center">
-          <div class="slds-col slds-m-around--small">
-            <div class="title">
-              <h3>Engineering</h3>
-            </div>
-            <ul class="contrib">
-              <li><a href="https://phoenix.apache.org/"><img alt="Apache Phoenix" src="assets/images/logos/phoenix.png"></a></li>
-              <li><a href="https://github.com/PredictionIO/PredictionIO"><img alt="PredictionIO" src="assets/images/logos/predictionio.svg"></a></li>
-              <li><a href="https://github.com/SalesforceEng/Argus"><img alt="Argus" src="assets/images/logos/argus.svg"></a></li>
-            </ul>
-          </div>
-          <div class="slds-col slds-m-around--small">
-            <div class="title">
-              <h3>Platform</h3>
-            </div>
-            <ul class="contrib">
-              <li><a href="https://github.com/heroku"><img alt="Heroku" src="assets/images/logos/heroku.svg"></a></li>
-              <li><a href="https://developer.salesforce.com/lightning/design-system"><img alt="Lightning Design System" src="assets/images/logos/salesforce.svg">Design System</a></li>
-              <li><a href="http://www.salesforce.org/help/nonprofitstarterpack/"><img alt="Non Profit Starter Pack" src="assets/images/logos/npsp.png"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+        <div>
+          <h2>built at salesforce</h2>
+          <ul class="contrib long">
+            <li><a href="https://phoenix.apache.org/"><img alt="Apache Phoenix" src="assets/images/logos/phoenix.png"></a></li>
+            <li><a href="https://github.com/PredictionIO/PredictionIO"><img alt="PredictionIO" src="assets/images/logos/predictionio.svg"></a></li>
+            <li><a href="https://github.com/Salesforce/Argus"><img alt="Argus" src="assets/images/logos/argus.svg"></a></li>
+            <li><a href="https://github.com/salesforce-ux/design-system"><img alt="Lightning Design System" src="assets/images/logos/logo-lightning.svg"></a></li>
+            <li><a href="http://www.salesforce.org/help/nonprofitstarterpack/"><img alt="Non Profit Starter Pack" src="assets/images/logos/npsp.png"></a></li>
+          </ul>
 
-      <div>
-        <h2>Other Contributions</h2>
+          <h2>community contributions</h2>
+          <ul class="contrib">
+            <li><a href="https://hbase.apache.org/"><img alt="Apache HBase" src="assets/images/logos/hbase.svg"></a></li>
+            <li><a href="https://raft.github.io/"><img alt="Raft" src="assets/images/logos/raft.svg"></a></li>
+          </ul>
 
-        <div class="slds-grid slds-wrap slds-text-align--center">
-          <div class="slds-col slds-m-around--small">
-            <div class="title">
-              <h3>Find More Projects in Our GitHub Orgs</h3>
+          <div class="two-col">
+            <div class="left">
+              <h2>github orgs</h2>
+              <ul class="vertical">
+                <li><a href="https://github.com/salesforce">Salesforce</a></li>
+                <li><a href="https://github.com/forcedotcom">Force.com</a></li>
+                <li><a href="https://github.com/salesforce-ux">Salesforce UX</a></li>
+                <li><a href="https://github.com/heroku">Heroku</a></li>
+                <li><a href="https://github.com/developerforce">Developer Force</a></li>
+                <li><a href="https://github.com/SalesforceFoundation">Salesforce Foundation</a></li>
+              </ul>
             </div>
-            <ul class="inline">
-              <li><a href="https://github.com/salesforce">Salesforce</a></li>
-              <li><a href="https://github.com/SalesforceEng">SalesforceEng</a></li>
-              <li><a href="https://github.com/forcedotcom">Force.com</a></li>
-              <li><a href="https://github.com/salesforce-ux">Salesforce UX</a></li>
-              <li><a href="https://github.com/developerforce">Salesforce Developers</a></li>
-              <li><a href="https://github.com/SalesforceFoundation">Salesforce Foundation</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="slds-grid slds-wrap slds-text-align--center">
-          <div class="slds-col slds-m-around--small">
-            <div class="title">
-              <h3>We Contribute To</h3>
+            <div class="right">
+              <h2>recent blog posts</h2>
+              <div id="recent-posts">
+                <!-- script.js will fill this in at run-time -->
+              </div>
             </div>
-            <ul class="contrib">
-              <li><a href="https://hbase.apache.org/"><img alt="Apache HBase" src="assets/images/logos/hbase.svg"></a></li>
-              <li><a href="https://raft.github.io/"><img alt="Raft" src="assets/images/logos/raft.svg"></a></li>
-            </ul>
-          </div>
-
-          <div id="recent-posts">
-            <!-- script.js will fill this in at run-time -->
           </div>
         </div>
       </div>
@@ -106,7 +88,7 @@
         <a href="https://www.salesforce.com/tech">salesforce.com/tech</a>
       </div>
       <div class="legal slds-text-align--center slds-p-around--medium">
-        © Copyright 2016 Salesforce.com, inc. <a href="http://www.salesforce.com/company/legal/intellectual.jsp">All rights reserved</a>. Various trademarks held by their respective owners. Salesforce.com, inc. The Landmark at One Market, Suite 300, San Francisco, CA 94105, United States
+        &copy; Copyright 2017 Salesforce.com, inc. <a href="http://www.salesforce.com/company/legal/intellectual.jsp">All rights reserved</a>. Various trademarks held by their respective owners. Salesforce.com, inc. The Landmark at One Market, Suite 300, San Francisco, CA 94105, United States
       </div>
     </footer>
   </body>
