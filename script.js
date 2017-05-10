@@ -61,6 +61,10 @@ loadMediumFeed('salesforce-engineering/tagged/open-source', function(items) {
   onDOMLoad(function() {
     var list = function() {
       var ol = document.createElement('ol');
+      items.sort(function(a, b) {
+        return new Date(b.date) - new Date(a.date);
+      });
+
       items.slice(0, 5).forEach(function(item) {
         var li = document.createElement('li');
         var a = document.createElement('a');
