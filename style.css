@@ -176,8 +176,8 @@ nav ul {
   }
 
   main > div > div {
-    padding-left: 320px;
-    padding-right: 230px;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 50px;
     padding-bottom: 50px;
   }
