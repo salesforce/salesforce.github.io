@@ -197,6 +197,34 @@ nav ul {
     float: right;
     width: 50%;
   }
+
+  ul.contrib.built-at {
+    display: block;
+    table-layout: auto;
+    padding-top: 20px;
+    min-height: 180px;
+    max-height: 200px;
+  }
+
+  ul.contrib.built-at:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  ul.contrib.built-at > li {
+    display: block;
+    width: 20%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    min-height: 75px;
+    max-height: 75px;
+  }
+
+  ul.contrib.built-at > li img {
+    max-height: 75px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -209,6 +237,8 @@ nav ul {
   ul.inline > li,
   ul.contrib > li {
     display: inline-block;
+    float: none;
+    width: auto;
   }
 
   ul.contrib > li > a > img {
