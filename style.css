@@ -203,7 +203,7 @@ nav ul {
     table-layout: auto;
     padding-top: 20px;
     min-height: 180px;
-    overflow: auto;
+    max-height: 200px;
   }
 
   ul.contrib.built-at:after {
@@ -217,8 +217,13 @@ nav ul {
     width: 20%;
     float: left;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     min-height: 75px;
+    max-height: 75px;
+  }
+
+  ul.contrib.built-at > li img {
+    max-height: 75px;
   }
 }
 
