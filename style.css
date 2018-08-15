@@ -133,6 +133,17 @@ nav ul {
   text-align: right;
 }
 
+.announcement {
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1.23em;
+}
+
+.announcement a {
+  color: #0070d2;
+}
+
 .title {
   border: 2px solid rgb(6, 28, 63);
   border-bottom: 0;
