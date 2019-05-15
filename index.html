@@ -4,19 +4,46 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Salesforce Open Source</title>
-    <link rel="stylesheet" type="text/css" href="assets/styles/salesforce-lightning-design-system.css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="https://c2.sfdcstatic.com/etc/designs/sfdc-www/en_us/favicon.ico">
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://c2.sfdcstatic.com/etc/designs/sfdc-www/en_us/favicon.ico">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/salesforce-lightning-design-system.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/vnd.microsoft.icon"
+      href="https://c2.sfdcstatic.com/etc/designs/sfdc-www/en_us/favicon.ico"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+      href="https://c2.sfdcstatic.com/etc/designs/sfdc-www/en_us/favicon.ico"
+    />
     <script src="script.js" async></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-      ga('create', 'UA-98551872-1', 'auto');
-      ga('send', 'pageview');
+      ga("create", "UA-98551872-1", "auto");
+      ga("send", "pageview");
     </script>
   </head>
 
@@ -24,75 +51,222 @@
     <nav class="slds-p-around--medium">
       <div class="slds-grid">
         <div class="slds-col logo">
-          <img src="assets/images/logos/salesforce.svg" alt="Salesforce">
+          <img src="assets/images/logos/salesforce.svg" alt="Salesforce" />
           <span>open source</span>
         </div>
         <div class="slds-col--bump-left">
           <ul class="inline">
-            <li><a href="https://github.com/salesforce"><img src="assets/images/logos/github.png"></a></li>
-            <li><a href="https://medium.com/salesforce-engineering"><img src="assets/images/logos/medium.svg"></a></li>
-            <li><a href="https://twitter.com/SalesforceEng"><img src="assets/images/logos/twitter.png"></a></li>
+            <li>
+              <a href="https://github.com/salesforce"
+                ><img src="assets/images/logos/github.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/salesforce-engineering"
+                ><img src="assets/images/logos/medium.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/SalesforceEng"
+                ><img src="assets/images/logos/twitter.png"
+              /></a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="announcement">
-      <h3><a href="https://transmogrif.ai/">TransmogrifAI</a>&mdash;the automated machine learning library for structured data&mdash;is open source. See the full <a href="https://engineering.salesforce.com/open-sourcing-transmogrifai-4e5d0e098da2">announcement.</a></h3>
-    </div>
-
     <div class="top">
-      <p>Salesforce uses and contributes to tons of Open Source.  We're committed to not just consume Open Source, but to contribute back our modifications to Open Source projects.  We'll also Open Source infrastructure and tools which are necessary, but indirect to our business, like we've done with <a href="https://github.com/salesforce/argus">Argus</a> - a time-series database.</p>
-      <p>Learn more about Open Source at Salesforce below or on our <a href="https://medium.com/salesforce-engineering/tagged/open-source">engineering blog</a>.</p>
+      <p>
+        Salesforce uses and contributes to tons of Open Source. We're committed
+        to not just consume Open Source, but to contribute back our
+        modifications to Open Source projects. We'll also Open Source
+        infrastructure and tools which are necessary, but indirect to our
+        business, like we've done with
+        <a href="https://github.com/salesforce/argus">Argus</a> - a time-series
+        database.
+      </p>
+      <div class="slds-grid slds-gutters ">
+        <div class="slds-col">
+          <ul class="vertical">
+            <li>
+              <a href="https://github.com/salesforce"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Salesforce</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/forcedotcom"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Lightning Platform</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/salesforce-ux"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Salesforce UX</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="slds-col">
+          <ul class="vertical">
+            <li>
+              <a href="https://github.com/heroku"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Heroku</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/oclif"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Oclif</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/developerforce"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Developer Force</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="slds-col">
+          <ul class="vertical">
+            <li>
+              <a href="https://github.com/SalesforceFoundation"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Salesforce Foundation</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/trailheadapps"
+                ><img
+                  class="octicon"
+                  src="/assets/octicons/svg/mark-github.svg"
+                />Trailhead Apps</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
     <main>
       <div>
         <div>
           <h2>built at salesforce</h2>
           <ul class="contrib long built-at">
-            <li><a href="https://phoenix.apache.org/"><img alt="Apache Phoenix" src="assets/images/logos/phoenix.png"></a></li>
-            <li><a href="https://github.com/Salesforce/Argus"><img alt="Argus" src="assets/images/logos/argus.png"></a></li>
-            <li><a href="https://github.com/salesforce/pyplyn"><img alt="PyPlyn" src="assets/images/logos/pyplyn.png"></a></li>
-            <li><a href="https://github.com/salesforce/refocus"><img alt="PyPlyn" src="assets/images/logos/refocus.png"></a></li>
-            <li><a href="https://predictionio.apache.org/"><img alt="PredictionIO" src="assets/images/logos/predictionio.png"></a></li>
-            <li><a href="https://github.com/salesforce-ux/design-system"><img alt="Lightning Design System" src="assets/images/logos/slds.png"></a></li>
-            <li><a href="https://github.com/salesforce/design-system-react"><img alt="Design System React" src="assets/images/logos/design-system-react.png"></a></li>
-            <li><a href="https://github.com/forcedotcom/ApexUnit"><img alt="ApexUnit" src="assets/images/logos/ApexUnit_New.png"></a></li>
-            <li><a href="https://github.com/salesforce/grammaticus"><img alt="Grammaticus" src="assets/images/logos/Grammaticus-Sticker.png"></a></li>
-            <li><a href="https://github.com/oclif/oclif"><img alt="Oclif" src="assets/images/logos/oclif.png"></a></li>
-            <li><a href="https://github.com/SalesforceFoundation/Cumulus"><img alt="Nonprofit Starter Pack" src="assets/images/logos/npsp.png"></a></li>
-            <li><a href="https://github.com/salesforce/AutoTriageBot"><img alt="AutoTriageBot" src="assets/images/logos/AutoTriageBotBanner.png"></a></li>
+            <li>
+              <a href="https://phoenix.apache.org/"
+                ><img alt="Apache Phoenix" src="assets/images/logos/phoenix.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/Salesforce/Argus"
+                ><img alt="Argus" src="assets/images/logos/argus.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/salesforce/pyplyn"
+                ><img alt="PyPlyn" src="assets/images/logos/pyplyn.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/salesforce/refocus"
+                ><img alt="PyPlyn" src="assets/images/logos/refocus.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://predictionio.apache.org/"
+                ><img
+                  alt="PredictionIO"
+                  src="assets/images/logos/predictionio.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/salesforce-ux/design-system"
+                ><img
+                  alt="Lightning Design System"
+                  src="assets/images/logos/slds.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/salesforce/design-system-react"
+                ><img
+                  alt="Design System React"
+                  src="assets/images/logos/design-system-react.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/forcedotcom/ApexUnit"
+                ><img alt="ApexUnit" src="assets/images/logos/ApexUnit_New.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/salesforce/grammaticus"
+                ><img
+                  alt="Grammaticus"
+                  src="assets/images/logos/Grammaticus-Sticker.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/oclif/oclif"
+                ><img alt="Oclif" src="assets/images/logos/oclif.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/SalesforceFoundation/Cumulus"
+                ><img
+                  alt="Nonprofit Starter Pack"
+                  src="assets/images/logos/npsp.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/salesforce/AutoTriageBot"
+                ><img
+                  alt="AutoTriageBot"
+                  src="assets/images/logos/AutoTriageBotBanner.png"
+              /></a>
+            </li>
           </ul>
 
           <h2>community contributions</h2>
           <ul class="contrib long built-at">
-            <li><a href="https://hbase.apache.org/"><img alt="Apache HBase" src="assets/images/logos/hbase.png"></a></li>
-            <li><a href="https://raft.github.io/"><img alt="Raft" src="assets/images/logos/raft.png"></a></li>
-            <li><a href="https://jenkins.io"><img alt="Jenkins" src="assets/images/logos/jenkins.png"></a></li>
-            <li><a href="https://kubernetes.io"><img alt="Kubernetes" src="assets/images/logos/kubernetes.png"></a></li>
+            <li>
+              <a href="https://hbase.apache.org/"
+                ><img alt="Apache HBase" src="assets/images/logos/hbase.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://raft.github.io/"
+                ><img alt="Raft" src="assets/images/logos/raft.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://jenkins.io"
+                ><img alt="Jenkins" src="assets/images/logos/jenkins.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://kubernetes.io"
+                ><img alt="Kubernetes" src="assets/images/logos/kubernetes.png"
+              /></a>
+            </li>
           </ul>
-
-          <div class="two-col">
-            <div class="left">
-              <h2>github orgs</h2>
-              <ul class="vertical">
-                <li><a href="https://github.com/salesforce">Salesforce</a></li>
-                <li><a href="https://github.com/forcedotcom">Force.com</a></li>
-                <li><a href="https://github.com/salesforce-ux">Salesforce UX</a></li>
-                <li><a href="https://github.com/heroku">Heroku</a></li>
-                <li><a href="https://github.com/oclif">Oclif</a></li>
-                <li><a href="https://github.com/developerforce">Developer Force</a></li>
-                <li><a href="https://github.com/SalesforceFoundation">Salesforce Foundation</a></li>
-              </ul>
-            </div>
-            <div class="right">
-              <h2>recent blog posts</h2>
-              <div id="recent-posts">
-                <!-- script.js will fill this in at run-time -->
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </main>
@@ -103,7 +277,12 @@
         <a href="http://bit.ly/SFDCTech">salesforce.com/tech</a>
       </div>
       <div class="legal slds-text-align--center slds-p-around--medium">
-        &copy; Copyright 2018 Salesforce.com, inc. <a href="http://www.salesforce.com/company/legal/intellectual.jsp">All rights reserved</a>. Various trademarks held by their respective owners. Salesforce.com, inc. The Landmark at One Market, Suite 300, San Francisco, CA 94105, United States
+        &copy; Copyright 2019 Salesforce.com, inc.
+        <a href="http://www.salesforce.com/company/legal/intellectual.jsp"
+          >All rights reserved</a
+        >. Various trademarks held by their respective owners. Salesforce.com,
+        inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA
+        94105, United States
       </div>
     </footer>
   </body>

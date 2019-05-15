@@ -1,8 +1,0 @@
-{
-  "name": "salesforce.github.io",
-  "buildpacks": [
-    {
-      "url": "https://github.com/ryandotsmith/null-buildpack.git"
-    }
-  ]
-}

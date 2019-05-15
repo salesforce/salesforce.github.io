@@ -30,10 +30,12 @@ nav,
 footer {
   background-color: rgb(6, 28, 63);
   width: 100%;
-  color: #A8B7C7;
+  color: #a8b7c7;
 }
 
-nav ul { width: 100px; }
+nav ul {
+  width: 100px;
+}
 nav ul > li {
   margin: 0 8px;
 }
@@ -121,7 +123,7 @@ main > div.light {
 }
 
 footer {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 footer .legal {
@@ -148,21 +150,27 @@ nav ul {
   border: 2px solid rgb(6, 28, 63);
   border-bottom: 0;
   position: relative;
-  top: .6rem;
+  top: 0.6rem;
 }
 
 .title > h3 {
   position: relative;
-  top: -.6rem;
+  top: -0.6rem;
   background: rgb(222, 222, 222);
   display: inline-block;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   text-transform: uppercase;
 }
 
-.slds-icon_container { z-index: 1; margin: 0 4px; background: rgb(2, 112, 210); }
-.slds-media--timeline:before { z-index: 0; background: rgb(2, 112, 210); }
-
+.slds-icon_container {
+  z-index: 1;
+  margin: 0 4px;
+  background: rgb(2, 112, 210);
+}
+.slds-media--timeline:before {
+  z-index: 0;
+  background: rgb(2, 112, 210);
+}
 
 @media (min-width: 1025px) {
   .top {
@@ -172,8 +180,8 @@ nav ul {
     height: 0;
     background-repeat: no-repeat;
     padding-bottom: 31.9%;
-    padding-left: 320px;
-    padding-right: 320px;
+    padding-left: 200px;
+    padding-right: 200px;
     margin-top: 1px;
     color: #ffffff;
     font-size: 18px;
@@ -194,7 +202,7 @@ nav ul {
   }
 
   .two-col {
-    content:"";
+    content: "";
     display: table;
     clear: both;
   }
@@ -288,4 +296,12 @@ nav ul {
   .right {
     padding-top: 40px;
   }
+}
+
+.octicon {
+  padding-top: 4px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
 }
