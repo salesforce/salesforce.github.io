@@ -1,0 +1,118 @@
+/*
+/*
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+:root {
+  --right-arrow: '\2192';
+  --primary: #ffce00;
+  --primary-light: #ffe88b;
+  --body: #495057;
+  --background: #f7f7f7;
+  --grey: #495057;
+  --light-grey: #ededed;
+  --dark-grey: #3f3f3f;
+  --golden-rod: #ffce00; }
+
+body {
+  background-color: var(--background); }
+
+a {
+  color: #000000; }
+  a:hover {
+    color: #000000;
+    background-color: var(--primary);
+    cursor: pointer; }
+
+.bg-primary {
+  background-color: var(--primary) !important; }
+  svg.bg-primary * {
+    fill: var(--primary); }
+  .icon-round.bg-primary {
+    background-color: var(--primary-light) !important; }
+
+.bg-primary-light {
+  background-color: var(--primary-light) !important; }
+
+.bg-dark-grey {
+  background-color: var(--dark-grey) !important;
+  color: var(--light); }
+  .bg-dark-grey .text-light a {
+    color: var(--primary);
+    border: 0px; }
+    .bg-dark-grey .text-light a:hover {
+      background-color: var(--primary);
+      color: var(--dark-grey); }
+
+.bg-light-grey {
+  background-color: var(--light-grey) !important; }
+
+a.hover-arrow {
+  color: #000000;
+  padding-bottom: .25rem;
+  padding-right: .25rem; }
+  a.hover-arrow:hover {
+      background-color: transparent; }
+
+.hover-arrow:after {
+  content: var(--right-arrow); }
+
+.navbar a:hover {
+  background-color: transparent; }
+  .navbar a.nav-link {
+    border-bottom: 5px solid transparent; }
+    .navbar a.nav-link:hover {
+      border-bottom: 5px solid var(--primary); }
+    .navbar a.dropdown-item.nav-link:hover {
+      background-color: var(--primary); }
+
+.card .card-title a:hover {
+  background-color: transparent;
+  border-bottom: .25rem solid var(--primary); }
+
+footer a {
+  padding-bottom: .25rem;
+  margin-bottom: .25rem; }
+  footer a:hover {
+    background-color: transparent; }
+
+footer a.nav-link:hover {
+  border: 0px; }
+  footer a.nav-link:hover:after {
+    content: var(--right-arrow);
+    color: var(--primary);
+    margin-left: .375rem; }
+
+footer a.hover-arrow {
+  color: var(--primary);
+  border-bottom: 0px; }
+  footer a.hover-arrow:hover {
+    color: #000000;
+    background-color: var(--primary); }
+
+.bg-primary-3 .text-light a {
+  color: var(--primary);
+  border: 0px; }
+  .bg-primary-3 .text-light a:hover {
+    background-color: var(--primary);
+    color: #000000; }
+
+.border-primary {
+  border-color: var(--primary) !important; }
+
+.border-bottom-3 {
+  border-bottom-width: .375rem;
+  border-bottom-style: solid; }
+
+.static-page-content {
+  margin-top: 4.5rem; }
+  .static-page-content h2 {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: var(--body); }

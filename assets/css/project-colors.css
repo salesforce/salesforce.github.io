@@ -1,0 +1,46 @@
+/*
+/*
+/*  project-colors.css
+/*
+/*  Utility classes for assigning colors based on project names
+/*
+*/
+
+:root {
+  --infrastructure: #3371e3;
+  --bigdata: #ba160c;
+  --cicd: #f7941d;
+  --go: #375EAB;
+  --python: #444444;
+  --java: #f29111; }
+
+.text-infrastructure {
+  color: var(--infrastructure); }
+  .bg-infrastructure {
+    background-color: var(--infrastructure);
+    color: #ffffff; }
+.text-bigdata {
+  color: var(--bigdata); }
+  .bg-bigdata {
+    background-color: var(--bigdata);
+    color: #ffffff; }
+.text-cicd {
+  color: var(--cicd); }
+  .bg-cicd {
+    background-color: var(--cicd);
+    color: #ffffff; }
+.text-go {
+  color: var(--go); }
+  .bg-go {
+    background-color: var(--go);
+    color: #ffffff; }
+.text-python {
+  color: var(--python); }
+  .bg-python {
+    background-color: var(--python);
+    color: #ffffff; }
+.text-java {
+  color: var(--java); }
+  .bg-java {
+    background-color: var(--java);
+    color: #ffffff; }
