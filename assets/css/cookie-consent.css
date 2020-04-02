@@ -549,3 +549,14 @@ div#onetrust-banner-sdk .ot-sdk-container #onetrust-button-group-parent #onetrus
     line-height: 100%;
     text-transform: uppercase
 }
+
+button#ot-sdk-btn.ot-sdk-show-settings {
+    background-color: var(--primary);
+    color: black;
+    border: 0;
+}
+
+button#ot-sdk-btn.ot-sdk-show-settings:hover {
+    background-color: white;
+    color: black;
+}
