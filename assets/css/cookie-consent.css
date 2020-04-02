@@ -1,0 +1,551 @@
+#onetrust-consent-sdk div#optanon-popup-bg {
+    background: #fff;
+    opacity: .75
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk {
+    margin-top: 0 !important;
+    width: 1008px;
+    max-width: 1008px;
+    height: 549px;
+    position: fixed;
+    top: 50px !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3)
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk {
+        width: auto;
+        height: auto;
+        max-height: 95vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        top: 10px !important;
+        overflow: scroll;
+        bottom: unset
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .pc-header .pc-logo-container {
+    margin-left: 0
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .pc-header .pc-logo-container .pc-logo {
+    margin-top: 35px
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .pc-header .pc-logo-container .pc-logo {
+        margin-top: 15px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .pc-header #pc-title {
+    font-family: "SalesforceSansLight", Helvetica, Arial, sans-serif;
+    font-size: 42px !important;
+    font-weight: 100;
+    color: #222;
+    top: 25px;
+    left: 130px;
+    position: absolute
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .pc-header #pc-title {
+        top: 20px;
+        font-size: 21px !important
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list {
+    background-color: #fff;
+    height: 98%
+}
+
+@media(max-width:768px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list {
+        height: 100vh;
+        width: 95vw
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .pc-header {
+    background-color: #f4f4f4 !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content nav#vendors-list-header h3 {
+    color: #215ca0;
+    text-transform: uppercase;
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif;
+    font-size: .9em !important;
+    line-height: 1 !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .action-container #search-container {
+    background-color: unset
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .action-container #search-container input {
+    border-radius: 0
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .action-container #filter-container svg path {
+    fill: #215ca0
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .navigation-container svg path {
+    fill: #215ca0
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .vendor-option .checkbox label {
+    width: 17px
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .vendor-option .checkbox label:after {
+    top: 0
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content .vendor-option p {
+    line-height: 36px !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content #vendor-list-content .host-title {
+    font-size: .8em !important;
+    font-weight: normal
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .vendor-content #vendor-list-content .host-description {
+    font-size: .69em !important;
+    font-weight: normal
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .button-group-parent {
+    background-color: #f4f4f4 !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .button-group-parent .optanon-ghost-button {
+    background-color: transparent !important;
+    color: #215ca0 !important;
+    text-transform: uppercase
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk section#vendors-list .button-group-parent .footer-logo {
+    display: none
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-header {
+    height: 137px;
+    border-bottom: 0;
+    padding: 0
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-header {
+        background-color: #f4f4f4;
+        height: 83px
+    }
+}
+
+@media(max-width:1024px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content {
+        height: 100%;
+        max-height: 85vh
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content #pc-privacy-header {
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif;
+    font-size: 22px !important;
+    line-height: 2.36 !important;
+    color: #032e61
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .group.category-menu-switch-handler {
+    border-left: 4px solid transparent
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group {
+    padding: 0 2%
+}
+
+@media(max-width:1024px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group {
+        background-color: #f4f4f4;
+        width: 100%;
+        padding: 0
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler {
+    border-bottom: 0;
+    min-height: 45px;
+    padding-right: 21px;
+    background-color: transparent !important;
+    border-left: 4px solid transparent
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler {
+        padding-right: 10px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler.active-group {
+    border-left: 4px solid #00a1e0;
+    background-color: #fff !important;
+    width: 100%
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler.active-group h3 {
+    color: #000;
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler .preference-menu-item {
+    padding: 13px 0 13px 0;
+    margin: 0 0 0 30px
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler .preference-menu-item button,
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler .preference-menu-item a {
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #215ca0;
+    font-weight: normal
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler .preference-menu-text button {
+    color: #000;
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .category-group li.category-item .category-menu-switch-handler h3 {
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    font-size: 15px !important;
+    line-height: 21px !important;
+    color: #215ca0;
+    font-weight: normal
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container {
+    height: auto;
+    min-height: 340px;
+    background-color: #fff;
+    padding: 1% 2%;
+    margin-left: 0;
+    width: 69%
+}
+
+@media(max-width:767px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container {
+        min-height: 130px;
+        width: 100%;
+        padding: 16px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container p.group-description {
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #222;
+    word-break: normal !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container h3.category-header {
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif;
+    font-size: 22px !important;
+    line-height: 2.36 !important;
+    color: #032e61
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .category-host-list-container>a {
+    font-weight: normal
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .cookie-subgroups-container h3.first-party-cookie-header {
+    font-size: .82em !important;
+    line-height: 1.4 !important;
+    font-weight: normal
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .toggle-group>.toggle {
+    background-color: #fff !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .toggle-group>.toggle .checkbox {
+    background-color: #fff !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .toggle-group>.toggle .checkbox>label {
+    width: 37px;
+    height: 23px;
+    background-color: #c1b9b4
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .toggle-group>.toggle .checkbox>label:after {
+    background-color: white;
+    width: 19px;
+    height: 19px;
+    top: 2px;
+    left: 3px
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .toggle-group>.toggle input:checked+label {
+    background-color: #215ca0
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .description-container .toggle-group>.toggle input:checked+label:after {
+    background-color: white;
+    top: 2px;
+    left: 15px
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container #pc-policy-text {
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #222
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column {
+    padding: 0 2%
+}
+
+@media(max-width:1024px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column {
+        padding: 0
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column .category-menu-switch-handler {
+    border-bottom: 0;
+    min-height: 45px;
+    padding-right: 21px;
+    background-color: transparent !important;
+    padding: 12px
+}
+
+@media(max-width:768px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column .category-menu-switch-handler {
+        padding-right: 0;
+        width: 100%
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column .category-menu-switch-handler.active-group {
+    border-left: 4px solid #00a1e0;
+    background-color: #fff !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column .category-menu-switch-handler.active-group h3 {
+    color: #000;
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .groups-container>.ot-sdk-row>.ot-sdk-column .category-menu-switch-handler h3 {
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    font-size: 15px !important;
+    line-height: 21px !important;
+    color: #215ca0;
+    font-weight: normal
+}
+
+@media(max-width:768px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk div.pc-content .button-group-parent {
+        height: auto;
+        padding-bottom: 15px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent {
+    border-top: 0;
+    padding-top: 0;
+    padding-bottom: 20px
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent {
+        padding-bottom: 0;
+        padding-top: calc(0.5%)
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .footer-logo {
+    display: none
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group {
+    margin: 0
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group {
+        margin: 0 0 0 20px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group button#accept-recommended-btn-handler {
+    display: inline-block !important;
+    float: right;
+    height: 47px;
+    min-width: 155px;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    border-radius: 4px
+}
+
+@media(max-width:768px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group button#accept-recommended-btn-handler {
+        float: none
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group button.save-preference-btn-handler {
+    visibility: hidden;
+    font-size: 14px;
+    font-weight: normal;
+    height: 48px;
+    padding: 14px 24px;
+    border-radius: 4px
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group button.save-preference-btn-handler.visible {
+    visibility: visible !important
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group .onetrust-close-btn-handler {
+    color: white !important;
+    text-transform: uppercase
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group .optanon-white-button-middle {
+    border-radius: 4px;
+    padding: 14px 24px;
+    border: 1px solid #215ca0
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group .optanon-white-button-middle {
+        margin-bottom: 20px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group .optanon-white-button-middle button:first-child {
+    background-color: #215ca0;
+    border-radius: 4px;
+    padding: 14px;
+    border: 1px solid #215ca0;
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    text-transform: uppercase
+}
+
+@media(max-width:1023px) {
+    #onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group .optanon-white-button-middle button:first-child {
+        margin-bottom: 20px
+    }
+}
+
+#onetrust-consent-sdk div#onetrust-pc-sdk .button-group-parent .button-group .optanon-ghost-button {
+    background-color: transparent !important;
+    color: #215ca0 !important
+}
+
+div#onetrust-banner-sdk {
+    width: 900px !important;
+    max-width: none !important;
+    min-height: 194px;
+    top: 160px !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
+}
+
+@media(max-width:768px) {
+    div#onetrust-banner-sdk {
+        width: calc(100% - 20px) !important;
+        display: table;
+        height: auto;
+        top: 10px !important;
+        margin-left: 10px;
+        margin-right: 10px;
+        transform: none !important
+    }
+}
+
+div#onetrust-banner-sdk .optanon-alert-box-bottom-top {
+    height: 0
+}
+
+div#onetrust-banner-sdk #onetrust-policy {
+    margin-top: 0
+}
+
+div#onetrust-banner-sdk .ot-sdk-container p {
+    color: #000 !important;
+    font-size: 11pt !important;
+    line-height: 16pt !important;
+    margin: 0 30px !important;
+    font-family: "SalesforceSansRegular", Helvetica, Arial, sans-serif;
+    padding-bottom: 0;
+    padding-top: 30px
+}
+
+@media(max-width:768px) {
+    div#onetrust-banner-sdk .ot-sdk-container p {
+        color: #222 !important;
+        font-size: 15px !important;
+        line-height: 24px !important
+    }
+}
+
+div#onetrust-banner-sdk .ot-sdk-container p a {
+    text-decoration: none !important;
+    font-family: "SalesforceSansBold", Helvetica, Arial, sans-serif;
+    color: #215ca0;
+    cursor: pointer
+}
+
+div#onetrust-banner-sdk .ot-sdk-container #onetrust-button-group-parent {
+    padding: 15px 30px 0 30px
+}
+
+@media(max-width:767px) {
+    div#onetrust-banner-sdk .ot-sdk-container #onetrust-button-group-parent {
+        top: 0;
+        padding: 20px 30px
+    }
+}
+
+div#onetrust-banner-sdk .ot-sdk-container #onetrust-button-group-parent #onetrust-button-group {
+    float: left
+}
+
+div#onetrust-banner-sdk .ot-sdk-container #onetrust-button-group-parent #onetrust-accept-btn-handler {
+    background-color: #215ca0;
+    height: 47px;
+    border-radius: 4px;
+    padding: 14px 24px;
+    font-size: 14px;
+    border: 0;
+    width: auto;
+    line-height: 100%;
+    text-transform: uppercase
+}
