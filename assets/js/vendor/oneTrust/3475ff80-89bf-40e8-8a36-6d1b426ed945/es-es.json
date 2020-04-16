@@ -1,0 +1,357 @@
+{
+  "DomainData" : {
+  "cctId": "3475ff80-89bf-40e8-8a36-6d1b426ed945",
+  "MainText": "Administrador de consentimiento de cookies",
+  "MainInfoText": "Utilizamos tres tipos de cookies en nuestros sitios web: obligatorias, funcionales y publicitarias. Puede optar por oponerse al uso de las cookies funcionales y las publicitarias. Haga clic en las diferentes categor\u00EDas de cookies para descubrir m\u00E1s acerca de cada categor\u00EDa y cambiar los ajustes predeterminados.  ",
+  "AboutText": "Declaraci\u00F3n de privacidad",
+  "AboutCookiesText": "Informaci\u00F3n general ",
+  "ConfirmText": "ACEPTAR TODAS LAS COOKIES",
+  "AllowAllText": "GUARDAR AJUSTES",
+  "CookiesUsedText": "Cookies utilizadas",
+  "AboutLink": "https://www.salesforce.com/es/company/privacy/full_privacy/",
+  "HideToolbarCookieList": true,
+  "ActiveText": "Activas",
+  "AlwaysActiveText": "Siempre activas",
+  "AlertNoticeText": "Utilizamos cookies para mejorar sus interacciones con nuestro sitio web. Nos ayudan a entender mejor c\u00F3mo se utilizan nuestros sitios web para que podamos adaptar su contenido para usted. Para obtener m\u00E1s informaci\u00F3n sobre las diferentes cookies que utilizamos, lea la <a href=\"https://www.salesforce.com/es/company/privacy/full_privacy/\" target=\"_blank\"> Declaraci\u00F3n de privacidad.</a> Para cambiar sus ajustes y preferencias de cookies, consulte el <a  href=\"javascript:void(0)\" class=\"ot-sdk-show-settings\"> Administrador de consentimiento de cookies. </a>",
+  "AlertCloseText": "Cerrar",
+  "AlertMoreInfoText": "Configuraci\u00F3n de cookies",
+  "CookieSettingButtonText": "",
+  "AlertAllowCookiesText": "Aceptar y continuar",
+  "CloseShouldAcceptAllCookies": false,
+  "LastReconsentDate": "",
+  "BannerTitle": "",
+  "ForceConsent": true,
+  "BannerPushesDownPage": "$BannerPushesDownPage",
+  "InactiveText": "Inactivas",
+  "CookiesText": "Cookies",
+  "CategoriesText": "Cookie Subgroup",
+  "IsLifespanEnabled": false,
+  "LifespanText": "Lifespan",
+  "VendorLevelOptOut": false,
+  "HasScriptArchive": false,
+  "BannerPosition": "default",
+  "PreferenceCenterPosition": "default",
+  "PreferenceCenterConfirmText": "GUARDAR AJUSTES",
+  "VendorListText": "List of Partners (vendors)",
+  "ThirdPartyCookieListText": "Third-party cookies",
+  "PreferenceCenterManagePreferencesText": " Manage Cookie Preferences",
+  "PreferenceCenterMoreInfoScreenReader": "Abrir una nueva ventana",
+  "CookieListTitle": "Cookie List",
+  "CookieListDescription": "Una cookie es un fragmento peque\u00F1o de datos (archivos de texto) que un sitio web, cuando es visitado por un usuario, le pregunta a su navegador para almacenarse en su dispositivo y as\u00ED recordar informaci\u00F3n acerca de usted, como por ejemplo la preferencia de idioma o su informaci\u00F3n para iniciar sesi\u00F3n. Estas cookies son establecidas por nosotros, y se llaman cookies de primeras partes. Tambi\u00E9n usamos cookies de terceras partes (que son cookies de un dominio diferente al dominio del sitio web que est\u00E1 visitando) para nuestros estudios de anuncios y marketing. Espec\u00EDficamente, usamos las cookies y otras tecnolog\u00EDas de seguimiento para los siguientes prop\u00F3sitos:",
+  "RuleSet": [
+    {
+  "Name": "Tier 2",
+  "Countries": ["ch"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "3",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": true,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "custom",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+},
+{
+  "Name": "Tier 3",
+  "Countries": ["de","no","fi","ru","be","pt","bg","dk","lt","lu","lv","hr","fr","hu","se","sg","si","sk","sl","gb","ie","ee","kr","mt","is","gr","cn","it","co","es","ar","at","cy","cz","pl","li","ro","nl"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "3",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": true,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "opt-in",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+},
+{
+  "Name": "Global",
+  "Countries": ["ad","re","mq","nc","gl","mu","gp","mf","bl","yt","gf","wf"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "3",
+  "Status" : "active",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": false,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "opt-out",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+}
+  ],
+  "Groups": [
+    {
+  "ShowInPopup": true,
+  "Order": "1",
+  "OptanonGroupId": "1",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "Las cookies obligatorias son necesarias para el funcionamiento b\u00E1sico del sitio web. Algunos ejemplos incluyen: cookies de sesi\u00F3n necesarias para transmitir el sitio web, cookies de autenticaci\u00F3n y cookies de seguridad.",
+  "GroupName": "Cookies obligatorias",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "F5A380EF-65AB-4004-9771-58E1CA9CF294",
+  "CustomGroupId": "1",
+  "GroupId": "c45704c4-6e0a-4fd0-a5a3-fa2a5de420a4"
+},
+{
+  "ShowInPopup": true,
+  "Order": "4",
+  "OptanonGroupId": "3",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "Las cookies funcionales mejoran las funciones, el rendimiento y los servicios del sitio web. Algunos ejemplos incluyen: cookies utilizadas para analizar el tr\u00E1fico del sitio web, cookies utilizadas para investigaci\u00F3n de mercado y cookies utilizadas para mostrar publicidad no dirigida a un individuo en particular.",
+  "GroupName": "Cookies de funcionalidad",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    {
+  "Name": "_gat",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "0",
+  "description": "This cookie name is associated with Google Universal Analytics, according to documentation it is used to throttle the request rate - limiting the collection of data on high traffic sites. It expires after 10 minutes."
+},
+{
+  "Name": "_ga",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "730",
+  "description": "This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.  By default it is set to expire after 2 years, although this is customisable by website owners."
+},
+{
+  "Name": "_gid",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "1",
+  "description": "This cookie name is associated with Google Universal Analytics. This appears to be a new cookie and as of Spring 2017 no information is available from Google.  It appears to store and update a unique value for each page visited."
+}
+  ],
+  "Hosts": [],
+  "PurposeId": "48CE2E25-0478-4796-905D-DAFBDA65D743",
+  "CustomGroupId": "3",
+  "GroupId": "17f421f7-2858-4d4e-902f-3bb8db04699d"
+},
+{
+  "ShowInPopup": true,
+  "Order": "39",
+  "OptanonGroupId": "4",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "Las cookies publicitarias realizan un seguimiento de la actividad en sitios web para entender los intereses de un usuario y dirigirle remarketing espec\u00EDfico. Algunos ejemplos: cookies utilizadas para marketing o publicidad basada en intereses.",
+  "GroupName": "Cookies publicitarias",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "6A400F2E-1CA5-4BB9-9CDE-5C1EC2F6C255",
+  "CustomGroupId": "4",
+  "GroupId": "3ada1135-e9ed-4a87-8a74-4baf45ff2752"
+},
+{
+  "ShowInPopup": true,
+  "Order": "42",
+  "OptanonGroupId": "8",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "Estas cookies est\u00E1n configuradas por una serie de servicios de redes sociales que hemos agregado al sitio para permitirle compartir nuestro contenido con sus amigos y redes. Son capaces de hacerle seguimiento a su navegador a trav\u00E9s de otros sitios y crear un perfil de sus intereses. Esto podr\u00E1 modificar el contenido y los mensajes que encuentra en otras p\u00E1ginas web que visita. Si no permite estas cookies no podr\u00E1 ver o usar estas herramientas para compartir.",
+  "GroupName": "Cookies de redes sociales",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "",
+  "CustomGroupId": "8",
+  "GroupId": "3e8420be-bcba-43bd-8219-12060d32034e"
+},
+{
+  "ShowInPopup": true,
+  "Order": "43",
+  "OptanonGroupId": "2",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "Estas cookies nos permiten contar las visitas y fuentes de circulaci\u00F3n para poder medir y mejorar el desempe\u00F1o de nuestro sitio. Nos ayudan a saber qu\u00E9 p\u00E1ginas son las m\u00E1s o menos populares, y ver cu\u00E1ntas personas visitan el sitio. Toda la informaci\u00F3n que recogen estas cookies es agregada y, por lo tanto, an\u00F3nima. Si no permite estas cookies no sabremos cu\u00E1ndo visit\u00F3 nuestro sitio, y por lo tanto no podremos saber cu\u00E1ndo lo visit\u00F3.",
+  "GroupName": "Cookies de rendimiento",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "99595B62-2FA6-4D80-8078-49629829C1AE",
+  "CustomGroupId": "2",
+  "GroupId": "973643c4-b322-4d1f-9fad-8831b96f3d3d"
+}
+  ],
+  "Language": {
+    "Culture": "es-ES"
+  },
+  "ShowPreferenceCenterCloseButton": false,
+  "FooterDescriptionText": "",
+  "CustomJs": "",
+  "LifespanTypeText": "Session",
+  "LifespanDurationText": "null",
+  "CloseText": "Cerrar",
+  "BannerCloseButtonText": "Cerrar",
+  "AddLinksToCookiepedia": false,
+  "showBannerCloseButton": false,
+  "AlertLayout": "top",
+  "IsDntEnable": false,
+  "BannerIABPartnersLink": "",
+  "BannerPurposeTitle": "",
+  "BannerPurposeDescription": "",
+  "BannerFeatureTitle": "",
+  "BannerFeatureDescription": "",
+  "BannerInformationTitle": "",
+  "BannerInformationDescription": ""
+},
+  "IabData": {},
+  "ConsentIntegration": {},
+  "CommonData": {
+  "ConsentPurposesText" : "Consent Purposes",
+  "FeaturesText" : "Features",
+  "LegitimateInterestPurposesText" : "Legitimate Interest Purposes",
+  "IabThirdPartyCookieUrl": "cookies.onetrust.mgr.consensu.org",
+  "OptanonHideAcceptButton": "",
+  "OptanonStyle": "modern",
+  "OptanonStaticContentLocation": "",
+  "BannerCustomCSS": "",
+  "PCCustomCSS": "#onetrust-pc-sdk #hosts-list-container .host-info {\n    width: auto !important;\n}",
+  "PcTextColor": "#000",
+  "PcButtonColor": "#215ca0",
+  "PcButtonTextColor": "#FFFFFF",
+  "PcBackgroundColor": "#F4F4F4",
+  "PcMenuColor": "#F4F4F4",
+  "PcMenuHighLightColor": "#fff",
+  "TextColor": "#696969",
+  "ButtonColor": "#0077c4",
+  "ButtonTextColor": "#FFFFFF",
+  "BackgroundColor": "#FFFFFF",
+  "BannerAccordionBackgroundColor": "$BannerAccordionBackgroundColor",
+  "OptanonLogo": "https://cdn.cookielaw.org/logos/ddb906c9-f57b-40fc-85a1-c8bcbc371b0d/6a33a761-886e-4860-8e17-abc0832f7a62/corporate_logo_big.png",
+  "OptanonCookieDomain": "opensource.salesforce.com",
+  "OptanonGroupIdPerformanceCookies": "2",
+  "OptanonGroupIdFunctionalityCookies": "3",
+  "OptanonGroupIdTargetingCookies": "4",
+  "OptanonGroupIdSocialCookies": "8",
+  "ShowSubGroupCookies": false,
+  "LegacyBannerLayout": "default_flat_top_two_button_white",
+  "OptanonHideCookieSettingButton": "hide-cookie-setting-button",
+  "UseRTL": false,
+  "ShowBannerAcceptButton": true,
+  "ShowBannerCookieSettings": false,
+  "ShowCookieList": true,
+  "AllowHostOptOut": false,
+  "CookieListTitleColor": "#696969",
+  "CookieListGroupNameColor": "#696969",
+  "CookieListTableHeaderColor": "#696969",
+  "CookieListPrimaryColor": "#696969",
+  "CookieListCustomCss": ""
+}
+}

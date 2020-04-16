@@ -1,0 +1,357 @@
+{
+  "DomainData" : {
+  "cctId": "3475ff80-89bf-40e8-8a36-6d1b426ed945",
+  "MainText": "\uCFE0\uD0A4 \uB3D9\uC758 \uAD00\uB9AC\uC790",
+  "MainInfoText": "\uB2F9\uC0AC \uC6F9 \uC0AC\uC774\uD2B8\uC5D0\uC11C\uB294 \uD544\uC218 \uCFE0\uD0A4, \uAE30\uB2A5\uC131 \uCFE0\uD0A4, \uAD11\uACE0 \uCFE0\uD0A4 \uC138 \uC885\uB958\uB97C \uC0AC\uC6A9\uD569\uB2C8\uB2E4. \uAE30\uB2A5\uC131 \uBC0F \uAD11\uACE0 \uCFE0\uD0A4\uC758 \uC218\uC2E0 \uAC70\uBD80\uB97C \uC120\uD0DD\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uAC01 \uCE74\uD14C\uACE0\uB9AC\uC5D0 \uB300\uD574 \uB354 \uC54C\uC544\uBCF4\uACE0 \uAE30\uBCF8 \uC124\uC815\uC744 \uBCC0\uACBD\uD558\uB824\uBA74 \uB2E4\uB978 \uCFE0\uD0A4 \uCE74\uD14C\uACE0\uB9AC\uB97C \uD074\uB9AD\uD558\uC2ED\uC2DC\uC624. ",
+  "AboutText": "\uAC1C\uC778 \uC815\uBCF4 \uCC98\uB9AC\uBC29\uCE68",
+  "AboutCookiesText": "\uC77C\uBC18 \uC815\uBCF4 ",
+  "ConfirmText": "\uBAA8\uB4E0 \uCFE0\uD0A4 \uC218\uB77D",
+  "AllowAllText": "\uC124\uC815 \uC800\uC7A5",
+  "CookiesUsedText": "\uC0AC\uC6A9 \uC911\uC778 \uCFE0\uD0A4",
+  "AboutLink": "https://www.salesforce.com/kr/company/privacy/full-privacy/",
+  "HideToolbarCookieList": true,
+  "ActiveText": "\uD65C\uC131",
+  "AlwaysActiveText": "\uD56D\uC0C1 \uD65C\uC131",
+  "AlertNoticeText": "\uB2F9\uC0AC\uB294 \uB2F9\uC0AC \uC6F9 \uC0AC\uC774\uD2B8\uC640 \uADC0\uD558\uC758 \uB354 \uC758\uBBF8 \uC788\uB294 \uC0C1\uD638 \uC791\uC6A9\uC744 \uC704\uD574 \uCFE0\uD0A4\uB97C \uC0AC\uC6A9\uD569\uB2C8\uB2E4. \uCFE0\uD0A4\uB85C \uB2F9\uC0AC \uC6F9 \uC0AC\uC774\uD2B8\uAC00 \uC0AC\uC6A9\uB418\uB294 \uBC29\uBC95\uC744 \uB354 \uC798 \uD30C\uC545\uD574 \uADC0\uD558\uC5D0\uAC8C \uB9DE\uCDA4\uD615 \uCF58\uD150\uCE20\uB97C \uC81C\uACF5\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uB2F9\uC0AC\uC5D0\uC11C \uC0AC\uC6A9\uD558\uB294 \uB2E4\uB978 \uCFE0\uD0A4\uC758 \uC790\uC138\uD55C \uC815\uBCF4\uC5D0 \uB300\uD574\uC11C\uB294 <a href=\"https://www.salesforce.com/kr/company/privacy/full-privacy/\" \" target=\"_blank\">\uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638\uCC98\uB9AC\uBC29\uCE68</a>\uC744 \uC77D\uC5B4\uBCF4\uC2ED\uC2DC\uC624. \uCFE0\uD0A4 \uC124\uC815 \uBC0F \uAE30\uBCF8 \uC124\uC815\uC744 \uBCC0\uACBD\uD558\uB824\uBA74 <a  href=\"javascript:void(0)\" class=\"ot-sdk-show-settings\"> \uCFE0\uD0A4 \uB3D9\uC758 \uAD00\uB9AC\uC790</a>\uB97C \uD655\uC778\uD558\uC2ED\uC2DC\uC624.",
+  "AlertCloseText": "\uB2EB\uAE30",
+  "AlertMoreInfoText": "\uCFE0\uD0A4 \uC124\uC815",
+  "CookieSettingButtonText": "",
+  "AlertAllowCookiesText": "\uC218\uB77D \uBC0F \uACC4\uC18D",
+  "CloseShouldAcceptAllCookies": false,
+  "LastReconsentDate": "",
+  "BannerTitle": "",
+  "ForceConsent": true,
+  "BannerPushesDownPage": "$BannerPushesDownPage",
+  "InactiveText": "\uBE44\uD65C\uC131\uD654",
+  "CookiesText": "\uCFE0\uD0A4",
+  "CategoriesText": "Cookie Subgroup",
+  "IsLifespanEnabled": false,
+  "LifespanText": "\uC218\uBA85",
+  "VendorLevelOptOut": false,
+  "HasScriptArchive": false,
+  "BannerPosition": "default",
+  "PreferenceCenterPosition": "default",
+  "PreferenceCenterConfirmText": "\uC124\uC815 \uC800\uC7A5",
+  "VendorListText": "List of Partners (vendors)",
+  "ThirdPartyCookieListText": "Third-party cookies",
+  "PreferenceCenterManagePreferencesText": " Manage Cookie Preferences",
+  "PreferenceCenterMoreInfoScreenReader": "This opens cookie policy in a new window",
+  "CookieListTitle": "Cookie List",
+  "CookieListDescription": "A cookie is a small piece of data (text file) that a website \u2013 when visited by a user \u2013 asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies \u2013 which are cookies from a domain different than the domain of the website you are visiting \u2013 for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:",
+  "RuleSet": [
+    {
+  "Name": "Tier 2",
+  "Countries": ["ch"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "3",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": true,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "custom",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+},
+{
+  "Name": "Tier 3",
+  "Countries": ["de","no","fi","ru","be","pt","bg","dk","lt","lu","lv","hr","fr","hu","se","sg","si","sk","sl","gb","ie","ee","kr","mt","is","gr","cn","it","co","es","ar","at","cy","cz","pl","li","ro","nl"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "3",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": true,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "opt-in",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+},
+{
+  "Name": "Global",
+  "Countries": ["ad","re","mq","nc","gl","mu","gp","mf","bl","yt","gf","wf"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "3",
+  "Status" : "active",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": false,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "opt-out",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+}
+  ],
+  "Groups": [
+    {
+  "ShowInPopup": true,
+  "Order": "1",
+  "OptanonGroupId": "1",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\uC774 \uCFE0\uD0A4\uB294 \uC6F9\uC0AC\uC774\uD2B8\uC758 \uAE30\uB2A5\uC744 \uC704\uD574 \uD544\uC218\uC801\uC774\uBA70, \uD68C\uC0AC \uC2DC\uC2A4\uD15C \uB0B4\uC5D0\uC11C \uC885\uB8CC\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uC774 \uCFE0\uD0A4\uB294 \uAC1C\uC778\uC815\uBCF4 \uC120\uD638\uB3C4, \uB85C\uADF8\uC778 \uB610\uB294 \uC591\uC2DD \uC791\uC131\uACFC \uAC19\uC740 \uC11C\uBE44\uC2A4 \uC694\uCCAD\uC5D0 \uD574\uB2F9\uD558\uB294 \uADC0\uD558\uC758 \uD589\uC704\uC5D0 \uB530\uB77C\uC11C\uB9CC \uC8FC\uB85C \uC124\uC815\uB429\uB2C8\uB2E4. \uADC0\uD558\uC758 \uBE0C\uB77C\uC6B0\uC800\uC5D0\uC11C \uC774 \uCFE0\uD0A4\uB97C \uCC28\uB2E8\uD558\uAC70\uB098 \uCFE0\uD0A4\uC5D0 \uB300\uD574 \uC54C\uB9BC \uC124\uC815\uC744 \uD560 \uC218 \uC788\uC9C0\uB9CC, \uC774 \uACBD\uC6B0 \uD574\uB2F9 \uC0AC\uC774\uD2B8\uC758 \uC77C\uBD80 \uAE30\uB2A5\uC774 \uB3D9\uC791\uD558\uC9C0 \uC54A\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+  "GroupName": "\uD544\uC218 \uCFE0\uD0A4",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "F5A380EF-65AB-4004-9771-58E1CA9CF294",
+  "CustomGroupId": "1",
+  "GroupId": "62c46741-3383-4ec7-b3a8-06a7cd94a9ab"
+},
+{
+  "ShowInPopup": true,
+  "Order": "4",
+  "OptanonGroupId": "3",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\uBCF8 \uCFE0\uD0A4\uB294 \uB3D9\uC601\uC0C1 \uBC0F \uC2E4\uC2DC\uAC04 \uCC44\uD305\uACFC \uAC19\uC740 \uACE0\uAE09 \uAE30\uB2A5\uACFC \uAC1C\uC778\uD654\uB97C \uD5C8\uC6A9\uD569\uB2C8\uB2E4. \uCFE0\uD0A4\uB294 \uD68C\uC0AC \uB610\uB294 \uD68C\uC0AC \uD398\uC774\uC9C0\uC5D0 \uCD94\uAC00\uB41C \uC81C3 \uC11C\uBE44\uC2A4 \uC0AC\uC5C5\uC790\uAC00 \uC124\uC815\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uCFE0\uD0A4\uB97C \uD5C8\uC6A9\uD558\uC9C0 \uC54A\uC73C\uBA74 \uC77C\uBD80 \uAE30\uB2A5\uC774 \uC815\uC0C1 \uC791\uB3D9\uD558\uC9C0 \uC54A\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+  "GroupName": "\uAE30\uB2A5\uC801 \uCFE0\uD0A4",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    {
+  "Name": "_gat",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "0",
+  "description": "This cookie name is associated with Google Universal Analytics, according to documentation it is used to throttle the request rate - limiting the collection of data on high traffic sites. It expires after 10 minutes."
+},
+{
+  "Name": "_ga",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "730",
+  "description": "This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.  By default it is set to expire after 2 years, although this is customisable by website owners."
+},
+{
+  "Name": "_gid",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "1",
+  "description": "This cookie name is associated with Google Universal Analytics. This appears to be a new cookie and as of Spring 2017 no information is available from Google.  It appears to store and update a unique value for each page visited."
+}
+  ],
+  "Hosts": [],
+  "PurposeId": "48CE2E25-0478-4796-905D-DAFBDA65D743",
+  "CustomGroupId": "3",
+  "GroupId": "bd094fd6-2f57-41fa-a840-9d1726259b38"
+},
+{
+  "ShowInPopup": true,
+  "Order": "39",
+  "OptanonGroupId": "4",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\uC774 \uCFE0\uD0A4\uB294 \uD68C\uC0AC\uC758 \uAD11\uACE0 \uD611\uB825\uC0AC\uAC00 \uD68C\uC0AC \uC0AC\uC774\uD2B8\uC5D0 \uC124\uC815\uD55C \uAC83\uC785\uB2C8\uB2E4. \uD574\uB2F9 \uD611\uB825\uC0AC\uB294 \uADC0\uD558\uC758 \uAD00\uC2EC\uC0AC\uC5D0 \uB300\uD55C \uD504\uB85C\uD30C\uC77C\uC744 \uB9CC\uB4E4\uACE0 \uB2E4\uB978 \uC0AC\uC774\uD2B8\uC5D0\uC11C\uB3C4 \uAD00\uB828 \uAD11\uACE0\uB97C \uD45C\uC2DC\uD558\uAE30 \uC704\uD574 \uC774 \uCFE0\uD0A4\uB97C \uC0AC\uC6A9\uD569\uB2C8\uB2E4. \uC774 \uCFE0\uD0A4\uB294 \uADC0\uD558\uC758 \uBE0C\uB77C\uC6B0\uC800\uC640 \uAE30\uAE30\uB97C \uC2DD\uBCC4\uD568\uC73C\uB85C\uC368 \uB3D9\uC791\uD569\uB2C8\uB2E4. \uC774 \uCFE0\uD0A4\uB97C \uD5C8\uC6A9\uD558\uC9C0 \uC54A\uC73C\uBA74 \uB2E4\uB978 \uC6F9\uC0AC\uC774\uD2B8\uC5D0\uC11C \uD68C\uC0AC\uAC00 \uC81C\uACF5\uD558\uB294 \uB9DE\uCDA4\uD615 \uAD11\uACE0\uB97C \uACBD\uD5D8\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.",
+  "GroupName": "\uAD11\uACE0 \uCFE0\uD0A4",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "6A400F2E-1CA5-4BB9-9CDE-5C1EC2F6C255",
+  "CustomGroupId": "4",
+  "GroupId": "1dfd1924-2d71-43e1-82d3-79269c24489a"
+},
+{
+  "ShowInPopup": true,
+  "Order": "42",
+  "OptanonGroupId": "8",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\uC774 \uCFE0\uD0A4\uB294 \uD68C\uC0AC\uC758 \uCF58\uD150\uCE20\uB97C \uADC0\uD558\uC758 \uCE5C\uAD6C\uC640 \uB124\uD2B8\uC6CC\uD06C\uC5D0\uC11C \uACF5\uC720\uD560 \uC218 \uC788\uB3C4\uB85D \uC0AC\uC774\uD2B8\uC5D0 \uCD94\uAC00\uB41C \uC77C\uBD80 \uC18C\uC15C \uBBF8\uB514\uC5B4 \uC11C\uBE44\uC2A4\uAC00 \uC124\uC815\uD55C \uAC83\uC785\uB2C8\uB2E4. \uC774 \uCFE0\uD0A4\uB294 \uC5EC\uB7EC \uC0AC\uC774\uD2B8\uC5D0 \uAC78\uCCD0 \uADC0\uD558\uC758 \uBE0C\uB77C\uC6B0\uC800\uB97C \uCD94\uC801\uD560 \uC218 \uC788\uC73C\uBA70 \uADC0\uD558\uC758 \uAD00\uC2EC \uC601\uC5ED\uC744 \uD504\uB85C\uD30C\uC77C\uB85C \uB9CC\uB4E4 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uC774\uB294 \uADC0\uD558\uAC00 \uBC29\uBB38\uD558\uB294 \uB2E4\uB978 \uC6F9\uC0AC\uC774\uD2B8\uC5D0\uC11C \uBCF4\uB294 \uCF58\uD150\uCE20\uC640 \uBA54\uC2DC\uC9C0\uC5D0 \uC601\uD5A5\uC744 \uBBF8\uCE60 \uC218 \uC788\uC2B5\uB2C8\uB2E4.  \uBCF8 \uCFE0\uD0A4\uB97C \uD5C8\uC6A9\uD558\uC9C0 \uC54A\uC73C\uBA74 \uBCF8 \uACF5\uC720 \uB3C4\uAD6C\uB97C \uC0AC\uC6A9\uD558\uC9C0 \uBABB\uD558\uAC70\uB098 \uD655\uC778\uD558\uC9C0 \uBABB\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+  "GroupName": "\uC18C\uC15C \uBBF8\uB514\uC5B4 \uCFE0\uD0A4",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "",
+  "CustomGroupId": "8",
+  "GroupId": "361e6db6-e6a0-453c-989c-b7dcb0670ec5"
+},
+{
+  "ShowInPopup": true,
+  "Order": "43",
+  "OptanonGroupId": "2",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\uC774 \uCFE0\uD0A4\uB294 \uBC29\uBB38\uC790 \uC218, \uB370\uC774\uD130 \uD2B8\uB798\uD53D \uC815\uBCF4\uB97C \uD655\uC778\uD574 \uD68C\uC0AC \uC0AC\uC774\uD2B8\uC758 \uC131\uB2A5\uC744 \uCE21\uC815\uD558\uACE0 \uAC1C\uC120\uD560 \uC218 \uC788\uB3C4\uB85D \uD569\uB2C8\uB2E4. \uB610\uD55C \uAC00\uC7A5 \uC778\uAE30\uAC00 \uB9CE\uAC70\uB098 \uC778\uAE30\uAC00 \uC801\uC740 \uD398\uC774\uC9C0\uB97C \uD655\uC778\uD558\uBA70 \uBC29\uBB38\uC790\uAC00 \uC0AC\uC774\uD2B8\uB97C \uC774\uB3D9\uD558\uB294 \uBC29\uBC95\uC744 \uD655\uC778\uD560 \uC218 \uC788\uB3C4\uB85D \uD569\uB2C8\uB2E4. \uCFE0\uD0A4\uAC00 \uC218\uC9D1\uD558\uB294 \uBAA8\uB4E0 \uC815\uBCF4\uB294 \uB204\uC801\uB418\uBA70 \uC775\uBA85 \uCC98\uB9AC\uB429\uB2C8\uB2E4. \uCFE0\uD0A4\uB97C \uD5C8\uC6A9\uD558\uC9C0 \uC54A\uC73C\uBA74 \uADC0\uD558\uAC00 \uD68C\uC0AC \uC0AC\uC774\uD2B8\uC5D0 \uBC29\uBB38\uD55C \uC2DC\uAE30\uB97C \uC54C \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.",
+  "GroupName": "\uC131\uB2A5 \uAD00\uB828 \uCFE0\uD0A4",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "99595B62-2FA6-4D80-8078-49629829C1AE",
+  "CustomGroupId": "2",
+  "GroupId": "4453e9f6-92e0-4a57-a265-20a11ff660f1"
+}
+  ],
+  "Language": {
+    "Culture": "ko"
+  },
+  "ShowPreferenceCenterCloseButton": false,
+  "FooterDescriptionText": "",
+  "CustomJs": "",
+  "LifespanTypeText": "\uC138\uC158",
+  "LifespanDurationText": "null",
+  "CloseText": "\uB2EB\uAE30",
+  "BannerCloseButtonText": "\uB2EB\uAE30",
+  "AddLinksToCookiepedia": false,
+  "showBannerCloseButton": false,
+  "AlertLayout": "top",
+  "IsDntEnable": false,
+  "BannerIABPartnersLink": "",
+  "BannerPurposeTitle": "",
+  "BannerPurposeDescription": "",
+  "BannerFeatureTitle": "",
+  "BannerFeatureDescription": "",
+  "BannerInformationTitle": "",
+  "BannerInformationDescription": ""
+},
+  "IabData": {},
+  "ConsentIntegration": {},
+  "CommonData": {
+  "ConsentPurposesText" : "Consent Purposes",
+  "FeaturesText" : "Features",
+  "LegitimateInterestPurposesText" : "Legitimate Interest Purposes",
+  "IabThirdPartyCookieUrl": "cookies.onetrust.mgr.consensu.org",
+  "OptanonHideAcceptButton": "",
+  "OptanonStyle": "modern",
+  "OptanonStaticContentLocation": "",
+  "BannerCustomCSS": "",
+  "PCCustomCSS": "#onetrust-pc-sdk #hosts-list-container .host-info {\n    width: auto !important;\n}",
+  "PcTextColor": "#000",
+  "PcButtonColor": "#215ca0",
+  "PcButtonTextColor": "#FFFFFF",
+  "PcBackgroundColor": "#F4F4F4",
+  "PcMenuColor": "#F4F4F4",
+  "PcMenuHighLightColor": "#fff",
+  "TextColor": "#696969",
+  "ButtonColor": "#0077c4",
+  "ButtonTextColor": "#FFFFFF",
+  "BackgroundColor": "#FFFFFF",
+  "BannerAccordionBackgroundColor": "$BannerAccordionBackgroundColor",
+  "OptanonLogo": "https://cdn.cookielaw.org/logos/ddb906c9-f57b-40fc-85a1-c8bcbc371b0d/6a33a761-886e-4860-8e17-abc0832f7a62/corporate_logo_big.png",
+  "OptanonCookieDomain": "opensource.salesforce.com",
+  "OptanonGroupIdPerformanceCookies": "2",
+  "OptanonGroupIdFunctionalityCookies": "3",
+  "OptanonGroupIdTargetingCookies": "4",
+  "OptanonGroupIdSocialCookies": "8",
+  "ShowSubGroupCookies": false,
+  "LegacyBannerLayout": "default_flat_top_two_button_white",
+  "OptanonHideCookieSettingButton": "hide-cookie-setting-button",
+  "UseRTL": false,
+  "ShowBannerAcceptButton": true,
+  "ShowBannerCookieSettings": false,
+  "ShowCookieList": true,
+  "AllowHostOptOut": false,
+  "CookieListTitleColor": "#696969",
+  "CookieListGroupNameColor": "#696969",
+  "CookieListTableHeaderColor": "#696969",
+  "CookieListPrimaryColor": "#696969",
+  "CookieListCustomCss": ""
+}
+}

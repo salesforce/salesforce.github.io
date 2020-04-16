@@ -1,0 +1,357 @@
+{
+  "DomainData" : {
+  "cctId": "3475ff80-89bf-40e8-8a36-6d1b426ed945",
+  "MainText": "\u0E15\u0E31\u0E27\u0E08\u0E31\u0E14\u0E01\u0E32\u0E23\u0E04\u0E27\u0E32\u0E21\u0E22\u0E34\u0E19\u0E22\u0E2D\u0E21\u0E43\u0E19\u0E01\u0E32\u0E23\u0E23\u0E31\u0E1A\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49",
+  "MainInfoText": "\u0E40\u0E23\u0E32\u0E43\u0E0A\u0E49\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E2A\u0E32\u0E21\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1A\u0E19\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32 \u0E44\u0E14\u0E49\u0E41\u0E01\u0E48 \u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19 \u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19 \u0E41\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E42\u0E06\u0E29\u0E13\u0E32 \u0E04\u0E38\u0E13\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E08\u0E30\u0E44\u0E21\u0E48\u0E23\u0E31\u0E1A\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19\u0E01\u0E31\u0E1A\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E42\u0E06\u0E29\u0E13\u0E32\u0E44\u0E14\u0E49 \u0E17\u0E31\u0E49\u0E07\u0E19\u0E35\u0E49 \u0E42\u0E1B\u0E23\u0E14\u0E04\u0E25\u0E34\u0E01\u0E17\u0E35\u0E48\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E15\u0E48\u0E32\u0E07\u0E46 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E31\u0E1A\u0E17\u0E23\u0E32\u0E1A\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E41\u0E15\u0E48\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E41\u0E25\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E23\u0E31\u0E1A\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19",
+  "AboutText": "\u0E04\u0E33\u0E41\u0E16\u0E25\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E31\u0E27",
+  "AboutCookiesText": "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E31\u0E48\u0E27\u0E44\u0E1B ",
+  "ConfirmText": "\u0E22\u0E2D\u0E21\u0E23\u0E31\u0E1A\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14",
+  "AllowAllText": "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32",
+  "CookiesUsedText": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49",
+  "AboutLink": "https://www.salesforce.com/th/company/privacy/full_privacy/",
+  "HideToolbarCookieList": true,
+  "ActiveText": "\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E2D\u0E22\u0E39\u0E48",
+  "AlwaysActiveText": "\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E15\u0E25\u0E2D\u0E14",
+  "AlertNoticeText": "\u0E40\u0E23\u0E32\u0E43\u0E0A\u0E49\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E42\u0E14\u0E22\u0E04\u0E38\u0E13\u0E21\u0E35\u0E04\u0E27\u0E32\u0E21\u0E2B\u0E21\u0E32\u0E22\u0E21\u0E32\u0E01\u0E22\u0E34\u0E48\u0E07\u0E02\u0E36\u0E49\u0E19 \u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E0A\u0E48\u0E27\u0E22\u0E43\u0E2B\u0E49\u0E40\u0E23\u0E32\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E44\u0E14\u0E49\u0E14\u0E35\u0E02\u0E36\u0E49\u0E19\u0E27\u0E48\u0E32\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E16\u0E39\u0E01\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E08\u0E30\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1B\u0E23\u0E31\u0E1A\u0E40\u0E19\u0E37\u0E49\u0E2D\u0E2B\u0E32\u0E43\u0E2B\u0E49\u0E40\u0E2B\u0E21\u0E32\u0E30\u0E2A\u0E21\u0E01\u0E31\u0E1A\u0E04\u0E38\u0E13 \u0E42\u0E1B\u0E23\u0E14\u0E2D\u0E48\u0E32\u0E19<a href=\"https://www.salesforce.com/th/company/privacy/full_privacy/\" target=\"_blank\">\u0E04\u0E33\u0E41\u0E16\u0E25\u0E07\u0E04\u0E27\u0E32\u0E21\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E15\u0E31\u0E27\u0E40\u0E1E\u0E37\u0E48</a>\u0E2D\u0E23\u0E31\u0E1A\u0E17\u0E23\u0E32\u0E1A\u0E14\u0E39\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E15\u0E34\u0E21\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E15\u0E48\u0E32\u0E07\u0E46 \u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E43\u0E0A\u0E49 \u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E01\u0E32\u0E23\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E25\u0E31\u0E01\u0E29\u0E13\u0E30\u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 \u0E42\u0E1B\u0E23\u0E14\u0E14\u0E39\u0E43\u0E19\u0E2A\u0E48\u0E27\u0E19<a  href=\"javascript:void(0)\" class=\"ot-sdk-show-settings\">\u0E15\u0E31\u0E27\u0E08\u0E31\u0E14\u0E01\u0E32\u0E23\u0E04\u0E27\u0E32\u0E21\u0E22\u0E34\u0E19\u0E22\u0E2D\u0E21\u0E43\u0E19\u0E01\u0E32\u0E23\u0E23\u0E31\u0E1A\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49</a>",
+  "AlertCloseText": "\u0E1B\u0E34\u0E14",
+  "AlertMoreInfoText": "\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49",
+  "CookieSettingButtonText": "",
+  "AlertAllowCookiesText": "\u0E22\u0E2D\u0E21\u0E23\u0E31\u0E1A\u0E41\u0E25\u0E30\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23\u0E15\u0E48\u0E2D",
+  "CloseShouldAcceptAllCookies": false,
+  "LastReconsentDate": "",
+  "BannerTitle": "",
+  "ForceConsent": true,
+  "BannerPushesDownPage": "$BannerPushesDownPage",
+  "InactiveText": "\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19",
+  "CookiesText": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49",
+  "CategoriesText": "Cookie Subgroup",
+  "IsLifespanEnabled": false,
+  "LifespanText": "\u0E23\u0E30\u0E22\u0E30\u0E40\u0E27\u0E25\u0E32\u0E01\u0E32\u0E23\u0E17\u0E33\u0E07\u0E32\u0E19",
+  "VendorLevelOptOut": false,
+  "HasScriptArchive": false,
+  "BannerPosition": "default",
+  "PreferenceCenterPosition": "default",
+  "PreferenceCenterConfirmText": "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01\u0E01\u0E32\u0E23\u0E15\u0E31\u0E49\u0E07\u0E04\u0E48\u0E32",
+  "VendorListText": "List of Partners (vendors)",
+  "ThirdPartyCookieListText": "Third-party cookies",
+  "PreferenceCenterManagePreferencesText": " Manage Cookie Preferences",
+  "PreferenceCenterMoreInfoScreenReader": "This opens cookie policy in a new window",
+  "CookieListTitle": "Cookie List",
+  "CookieListDescription": "A cookie is a small piece of data (text file) that a website \u2013 when visited by a user \u2013 asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies \u2013 which are cookies from a domain different than the domain of the website you are visiting \u2013 for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:",
+  "RuleSet": [
+    {
+  "Name": "Tier 2",
+  "Countries": ["ch"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "3",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": true,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "custom",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+},
+{
+  "Name": "Tier 3",
+  "Countries": ["de","no","fi","ru","be","pt","bg","dk","lt","lu","lv","hr","fr","hu","se","sg","si","sk","sl","gb","ie","ee","kr","mt","is","gr","cn","it","co","es","ar","at","cy","cz","pl","li","ro","nl"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "3",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "inactive",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": true,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "opt-in",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+},
+{
+  "Name": "Global",
+  "Countries": ["ad","re","mq","nc","gl","mu","gp","mf","bl","yt","gf","wf"],
+  "Categories" : [
+    {
+  "OptanonGroupId" : "1",
+  "Status" : "always active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "4",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "8",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "2",
+  "Status" : "active",
+  "IsDntEnabled": false
+},
+{
+  "OptanonGroupId" : "3",
+  "Status" : "active",
+  "IsDntEnabled": false
+}
+  ],
+  "ShowAlertNotice": false,
+  "IsConsentLoggingEnabled": false,
+  "IsIabEnabled": false,
+  "IsIabThirdPartyCookieEnabled": true,
+  "ScrollCloseBanner": false,
+  "OnClickCloseBanner": false,
+  "NextPageCloseBanner": false,
+  "AcceptAllCookies": false,
+  "ConsentModel" : "opt-out",
+  "Vendors" : [],
+  "ScrollAcceptAllCookies": false,
+  "OnClickAcceptAllCookies": false,
+  "NextPageAcceptAllCookies": false
+}
+  ],
+  "Groups": [
+    {
+  "ShowInPopup": true,
+  "Order": "1",
+  "OptanonGroupId": "1",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1B\u0E23\u0E30\u0E40\u0E20\u0E17\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E21\u0E35\u0E44\u0E27\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19\u0E01\u0E32\u0E23\u0E17\u0E33\u0E07\u0E32\u0E19\u0E1E\u0E37\u0E49\u0E19\u0E10\u0E32\u0E19\u0E02\u0E2D\u0E07\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C \u0E15\u0E31\u0E27\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E0A\u0E48\u0E19 \u0E40\u0E0B\u0E2A\u0E0A\u0E31\u0E19\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E48\u0E2D\u0E01\u0E32\u0E23\u0E2A\u0E48\u0E07\u0E1C\u0E48\u0E32\u0E19\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C \u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E32\u0E23\u0E1E\u0E34\u0E2A\u0E39\u0E08\u0E19\u0E4C\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E15\u0E31\u0E27\u0E15\u0E19 \u0E41\u0E25\u0E30\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E21\u0E31\u0E48\u0E19\u0E04\u0E07\u0E1B\u0E25\u0E2D\u0E14\u0E20\u0E31\u0E22",
+  "GroupName": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "F5A380EF-65AB-4004-9771-58E1CA9CF294",
+  "CustomGroupId": "1",
+  "GroupId": "f2efe771-610e-4484-b6c6-511cf06837eb"
+},
+{
+  "ShowInPopup": true,
+  "Order": "4",
+  "OptanonGroupId": "3",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19\u0E0A\u0E48\u0E27\u0E22\u0E2A\u0E48\u0E07\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E1B\u0E23\u0E30\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E20\u0E32\u0E1E\u0E01\u0E32\u0E23\u0E17\u0E33\u0E07\u0E32\u0E19 \u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19 \u0E41\u0E25\u0E30\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E1A\u0E19\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C \u0E15\u0E31\u0E27\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E0A\u0E48\u0E19 \u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E27\u0E34\u0E40\u0E04\u0E23\u0E32\u0E30\u0E2B\u0E4C\u0E1B\u0E23\u0E34\u0E21\u0E32\u0E13\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C \u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E17\u0E33\u0E01\u0E32\u0E23\u0E27\u0E34\u0E08\u0E31\u0E22\u0E15\u0E25\u0E32\u0E14 \u0E41\u0E25\u0E30\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E41\u0E2A\u0E14\u0E07\u0E42\u0E06\u0E29\u0E13\u0E32\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E08\u0E32\u0E30\u0E08\u0E07\u0E44\u0E1B\u0E17\u0E35\u0E48\u0E1A\u0E38\u0E04\u0E04\u0E25\u0E43\u0E14\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E32\u0E23\u0E40\u0E09\u0E1E\u0E32\u0E30",
+  "GroupName": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1F\u0E31\u0E07\u0E01\u0E4C\u0E0A\u0E31\u0E19",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    {
+  "Name": "_gat",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "0",
+  "description": "This cookie name is associated with Google Universal Analytics, according to documentation it is used to throttle the request rate - limiting the collection of data on high traffic sites. It expires after 10 minutes."
+},
+{
+  "Name": "_ga",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "730",
+  "description": "This cookie name is associated with Google Universal Analytics - which is a significant update to Google's more commonly used analytics service. This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the sites analytics reports.  By default it is set to expire after 2 years, although this is customisable by website owners."
+},
+{
+  "Name": "_gid",
+  "Host": "salesforce.com",
+  "IsSession": false,
+  "Length": "1",
+  "description": "This cookie name is associated with Google Universal Analytics. This appears to be a new cookie and as of Spring 2017 no information is available from Google.  It appears to store and update a unique value for each page visited."
+}
+  ],
+  "Hosts": [],
+  "PurposeId": "48CE2E25-0478-4796-905D-DAFBDA65D743",
+  "CustomGroupId": "3",
+  "GroupId": "c8309e84-fb1a-415e-a086-2896fa906298"
+},
+{
+  "ShowInPopup": true,
+  "Order": "39",
+  "OptanonGroupId": "4",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E42\u0E06\u0E29\u0E13\u0E32\u0E08\u0E30\u0E15\u0E34\u0E14\u0E15\u0E32\u0E21\u0E01\u0E34\u0E08\u0E01\u0E23\u0E23\u0E21\u0E17\u0E31\u0E48\u0E27\u0E17\u0E31\u0E49\u0E07\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E27\u0E48\u0E32\u0E1C\u0E39\u0E49\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21\u0E2A\u0E19\u0E43\u0E08\u0E2D\u0E30\u0E44\u0E23 \u0E41\u0E25\u0E30\u0E08\u0E30\u0E17\u0E33\u0E01\u0E32\u0E23\u0E15\u0E25\u0E32\u0E14\u0E41\u0E1A\u0E1A\u0E40\u0E09\u0E1E\u0E32\u0E30\u0E40\u0E08\u0E32\u0E30\u0E08\u0E07\u0E01\u0E31\u0E1A\u0E1C\u0E39\u0E49\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21\u0E19\u0E31\u0E49\u0E19\u0E46 \u0E15\u0E31\u0E27\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E40\u0E0A\u0E48\u0E19 \u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E01\u0E32\u0E23\u0E17\u0E33\u0E01\u0E32\u0E23\u0E15\u0E25\u0E32\u0E14\u0E0B\u0E49\u0E33\u0E2B\u0E23\u0E37\u0E2D\u0E01\u0E32\u0E23\u0E42\u0E06\u0E29\u0E13\u0E32\u0E15\u0E32\u0E21\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E19\u0E43\u0E08",
+  "GroupName": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E42\u0E06\u0E29\u0E13\u0E32",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "6A400F2E-1CA5-4BB9-9CDE-5C1EC2F6C255",
+  "CustomGroupId": "4",
+  "GroupId": "55c26cfd-9505-41e4-bb07-99f5fe73269f"
+},
+{
+  "ShowInPopup": true,
+  "Order": "42",
+  "OptanonGroupId": "8",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E42\u0E14\u0E22\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E42\u0E0B\u0E40\u0E0A\u0E35\u0E22\u0E25\u0E21\u0E35\u0E40\u0E14\u0E35\u0E22\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1A\u0E19\u0E44\u0E0B\u0E15\u0E4C \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E0A\u0E48\u0E27\u0E22\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19\u0E40\u0E19\u0E37\u0E49\u0E2D\u0E2B\u0E32\u0E01\u0E31\u0E1A\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E46 \u0E41\u0E25\u0E30\u0E40\u0E04\u0E23\u0E37\u0E2D\u0E02\u0E48\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49 \u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E15\u0E34\u0E14\u0E15\u0E32\u0E21\u0E40\u0E1A\u0E23\u0E32\u0E27\u0E4C\u0E40\u0E0B\u0E2D\u0E23\u0E4C\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21\u0E44\u0E0B\u0E15\u0E4C\u0E2D\u0E37\u0E48\u0E19\u0E46 \u0E41\u0E25\u0E30\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E42\u0E1B\u0E23\u0E44\u0E1F\u0E25\u0E4C\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E19\u0E43\u0E08\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13\u0E44\u0E14\u0E49 \u0E0B\u0E36\u0E48\u0E07\u0E08\u0E30\u0E2A\u0E48\u0E07\u0E1C\u0E25\u0E15\u0E48\u0E2D\u0E40\u0E19\u0E37\u0E49\u0E2D\u0E2B\u0E32\u0E41\u0E25\u0E30\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E40\u0E2B\u0E47\u0E19\u0E1A\u0E19\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C\u0E2D\u0E37\u0E48\u0E19\u0E46 \u0E17\u0E35\u0E48\u0E04\u0E38\u0E13\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21 \u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E17\u0E33\u0E07\u0E32\u0E19 \u0E04\u0E38\u0E13\u0E08\u0E30\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E43\u0E0A\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E14\u0E39\u0E40\u0E04\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E21\u0E37\u0E2D\u0E01\u0E32\u0E23\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E44\u0E14\u0E49",
+  "GroupName": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E42\u0E0B\u0E40\u0E0A\u0E35\u0E22\u0E25\u0E21\u0E35\u0E40\u0E14\u0E35\u0E22",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "",
+  "CustomGroupId": "8",
+  "GroupId": "f87b6976-3a57-49e9-bf64-8c5f35a5d52a"
+},
+{
+  "ShowInPopup": true,
+  "Order": "43",
+  "OptanonGroupId": "2",
+  "Parent": "",
+  "ShowSubgroup": true,
+  "ShowSubGroupDescription": true,
+  "ShowSubgroupToggle": false,
+  "GroupDescription": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E23\u0E32\u0E43\u0E19\u0E01\u0E32\u0E23\u0E19\u0E31\u0E1A\u0E08\u0E33\u0E19\u0E27\u0E19\u0E41\u0E25\u0E30\u0E17\u0E35\u0E48\u0E21\u0E32\u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E40\u0E23\u0E32\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E27\u0E31\u0E14\u0E41\u0E25\u0E30\u0E1B\u0E23\u0E31\u0E1A\u0E1B\u0E23\u0E38\u0E07\u0E1B\u0E23\u0E30\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E20\u0E32\u0E1E\u0E44\u0E0B\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49 \u0E19\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49\u0E22\u0E31\u0E07\u0E0A\u0E48\u0E27\u0E22\u0E43\u0E2B\u0E49\u0E40\u0E23\u0E32\u0E17\u0E23\u0E32\u0E1A\u0E27\u0E48\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E43\u0E14\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E04\u0E27\u0E32\u0E21\u0E19\u0E34\u0E22\u0E21\u0E21\u0E32\u0E01\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\u0E41\u0E25\u0E30\u0E19\u0E49\u0E2D\u0E22\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14 \u0E41\u0E25\u0E30\u0E17\u0E23\u0E32\u0E1A\u0E27\u0E48\u0E32\u0E1C\u0E39\u0E49\u0E40\u0E22\u0E35\u0E48\u0E22\u0E21\u0E0A\u0E21\u0E40\u0E02\u0E49\u0E32\u0E14\u0E39\u0E2A\u0E48\u0E27\u0E19\u0E43\u0E14\u0E1A\u0E49\u0E32\u0E07 \u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14\u0E17\u0E35\u0E48\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E08\u0E31\u0E14\u0E40\u0E01\u0E47\u0E1A\u0E44\u0E27\u0E49\u0E08\u0E30\u0E16\u0E39\u0E01\u0E23\u0E27\u0E21\u0E44\u0E27\u0E49\u0E14\u0E49\u0E27\u0E22\u0E01\u0E31\u0E19 \u0E08\u0E36\u0E07\u0E17\u0E33\u0E43\u0E2B\u0E49\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E23\u0E30\u0E1A\u0E38\u0E15\u0E31\u0E27\u0E15\u0E19\u0E44\u0E14\u0E49 \u0E2B\u0E32\u0E01\u0E04\u0E38\u0E13\u0E44\u0E21\u0E48\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E17\u0E33\u0E07\u0E32\u0E19 \u0E40\u0E23\u0E32\u0E08\u0E30\u0E44\u0E21\u0E48\u0E17\u0E23\u0E32\u0E1A\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E21\u0E44\u0E0B\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E32\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E43\u0E14",
+  "GroupName": "\u0E04\u0E38\u0E01\u0E01\u0E35\u0E49\u0E1B\u0E23\u0E30\u0E2A\u0E34\u0E17\u0E18\u0E34\u0E20\u0E32\u0E1E",
+  "IsIabPurpose" : false,
+  "FirstPartyCookies": [
+    
+  ],
+  "Hosts": [],
+  "PurposeId": "99595B62-2FA6-4D80-8078-49629829C1AE",
+  "CustomGroupId": "2",
+  "GroupId": "f372b987-be11-4504-9a18-881d8a20e4bb"
+}
+  ],
+  "Language": {
+    "Culture": "th"
+  },
+  "ShowPreferenceCenterCloseButton": false,
+  "FooterDescriptionText": "",
+  "CustomJs": "",
+  "LifespanTypeText": "\u0E40\u0E0B\u0E2A\u0E0A\u0E31\u0E19",
+  "LifespanDurationText": "null",
+  "CloseText": "\u0E1B\u0E34\u0E14",
+  "BannerCloseButtonText": "\u0E1B\u0E34\u0E14",
+  "AddLinksToCookiepedia": false,
+  "showBannerCloseButton": false,
+  "AlertLayout": "top",
+  "IsDntEnable": false,
+  "BannerIABPartnersLink": "",
+  "BannerPurposeTitle": "",
+  "BannerPurposeDescription": "",
+  "BannerFeatureTitle": "",
+  "BannerFeatureDescription": "",
+  "BannerInformationTitle": "",
+  "BannerInformationDescription": ""
+},
+  "IabData": {},
+  "ConsentIntegration": {},
+  "CommonData": {
+  "ConsentPurposesText" : "Consent Purposes",
+  "FeaturesText" : "Features",
+  "LegitimateInterestPurposesText" : "Legitimate Interest Purposes",
+  "IabThirdPartyCookieUrl": "cookies.onetrust.mgr.consensu.org",
+  "OptanonHideAcceptButton": "",
+  "OptanonStyle": "modern",
+  "OptanonStaticContentLocation": "",
+  "BannerCustomCSS": "",
+  "PCCustomCSS": "#onetrust-pc-sdk #hosts-list-container .host-info {\n    width: auto !important;\n}",
+  "PcTextColor": "#000",
+  "PcButtonColor": "#215ca0",
+  "PcButtonTextColor": "#FFFFFF",
+  "PcBackgroundColor": "#F4F4F4",
+  "PcMenuColor": "#F4F4F4",
+  "PcMenuHighLightColor": "#fff",
+  "TextColor": "#696969",
+  "ButtonColor": "#0077c4",
+  "ButtonTextColor": "#FFFFFF",
+  "BackgroundColor": "#FFFFFF",
+  "BannerAccordionBackgroundColor": "$BannerAccordionBackgroundColor",
+  "OptanonLogo": "https://cdn.cookielaw.org/logos/ddb906c9-f57b-40fc-85a1-c8bcbc371b0d/6a33a761-886e-4860-8e17-abc0832f7a62/corporate_logo_big.png",
+  "OptanonCookieDomain": "opensource.salesforce.com",
+  "OptanonGroupIdPerformanceCookies": "2",
+  "OptanonGroupIdFunctionalityCookies": "3",
+  "OptanonGroupIdTargetingCookies": "4",
+  "OptanonGroupIdSocialCookies": "8",
+  "ShowSubGroupCookies": false,
+  "LegacyBannerLayout": "default_flat_top_two_button_white",
+  "OptanonHideCookieSettingButton": "hide-cookie-setting-button",
+  "UseRTL": false,
+  "ShowBannerAcceptButton": true,
+  "ShowBannerCookieSettings": false,
+  "ShowCookieList": true,
+  "AllowHostOptOut": false,
+  "CookieListTitleColor": "#696969",
+  "CookieListGroupNameColor": "#696969",
+  "CookieListTableHeaderColor": "#696969",
+  "CookieListPrimaryColor": "#696969",
+  "CookieListCustomCss": ""
+}
+}
