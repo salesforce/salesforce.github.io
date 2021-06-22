@@ -1,112 +1,175 @@
-var SfdcWwwBase = SfdcWwwBase || {}
-SfdcWwwBase.oneTrustComponent = SfdcWwwBase.oneTrustComponent || {}
-;(function(a) {
-  SfdcWwwBase.oneTrustComponent.changeButtons = function() {
-    var e = a(".ot-sdk-container").find(".save-preference-btn-handler")
-    var d = a(".ot-sdk-container").find("#accept-recommended-btn-handler")
-    var c = a(".category-menu-switch-handler")
-    function b(f) {
-      if (
-        typeof a(f)
-          .closest("li")
-          .data("optanongroupid") == "undefined"
-      ) {
-        e.removeClass("visible")
-        d.removeClass("optanon-ghost-button")
-        d.children().removeClass("optanon-ghost-button-text-color")
-      } else {
-        e.addClass("visible")
-        d.addClass("optanon-ghost-button")
-        d.children().addClass("optanon-ghost-button-text-color")
+/*globals console */
+var SfdcWwwBase = SfdcWwwBase || {};
+
+var oneTrustComponent = (function () {
+  'use strict';
+
+  // oneTrustContainer gets set in waitForOneTrustContainer()
+  var oneTrustContainer,
+  count = 0;
+  var Keyboard = {
+    TAB: 9,
+    ESCAPE: 27,
+    ENTER: 13,
+    SPACE: 32,
+    LEFT: 37,
+    RIGHT: 39
+  };
+
+  function changeButtons() {
+    
+    var categoryItems = ((oneTrustContainer && oneTrustContainer.querySelectorAll('.category-menu-switch-handler')) ? oneTrustContainer.querySelectorAll('.category-menu-switch-handler') : false);
+    var saveCookiesButton = ((oneTrustContainer && oneTrustContainer.querySelector('.save-preference-btn-handler')) ? oneTrustContainer.querySelector('.save-preference-btn-handler') : false);
+    var acceptCookiesButton = ((oneTrustContainer && oneTrustContainer.querySelector('#accept-recommended-btn-handler')) ? oneTrustContainer.querySelector('#accept-recommended-btn-handler') : false);
+    var generalContentArea = ((oneTrustContainer && oneTrustContainer.querySelector('#ot-tab-desc')) ? oneTrustContainer.querySelector('#ot-tab-desc') : false);
+    
+    // Update backbutton in cookie list to move span inside of button
+    var listSection = ((oneTrustContainer && oneTrustContainer.querySelector('#ot-pc-lst')) ? oneTrustContainer.querySelector('#ot-pc-lst') : false);
+    var headingSection = ((listSection && listSection.querySelector('#ot-lst-title')) ? listSection.querySelector('#ot-lst-title') : false);
+    var backButton = ((headingSection && headingSection.querySelector('.back-btn-handler')) ? headingSection.querySelector('.back-btn-handler') : false);
+    var headingSecSpan = ((headingSection && headingSection.getElementsByTagName('span')) ? headingSection.getElementsByTagName('span') : false);
+
+    // Move span inside of button so all can be selected or clicked, not just tiny arrow
+    if (backButton && headingSecSpan) backButton.appendChild(headingSecSpan[0]);
+
+    // Setup button toggles to show/hide save all button
+    function toggleButtons(categoryItem) {
+      if (saveCookiesButton && acceptCookiesButton) {
+        if (typeof categoryItem.parentElement.dataset.optanongroupid === 'undefined') {
+          if (saveCookiesButton.classList.contains('visible')) saveCookiesButton.classList.remove('visible');
+          if (acceptCookiesButton.classList.contains('optanon-ghost-button')) acceptCookiesButton.classList.remove('optanon-ghost-button');
+        } else {
+          saveCookiesButton.classList.add('visible');
+          acceptCookiesButton.classList.add('optanon-ghost-button');
+        }
+      } 
+    }
+
+    // Loop over links to add click and keydown events to call toggleButtons()
+    for (let i = 0; i < categoryItems.length; i++) {
+      // Click events
+      categoryItems[i].addEventListener('click', function (e) {
+        toggleButtons(e.currentTarget);
+      });
+      
+      // Add keyboard navigation event to toggle buttons
+      categoryItems[i].addEventListener('keydown', function(e) {
+        // Arrow keys - left and right
+        if (e.keyCode === Keyboard.LEFT || e.keyCode === Keyboard.RIGHT) toggleArrowKeyDirection();
+      });
+    }
+
+    // OneTrust tool not fully accessible. Needs a little help with tab key and shift + tab keys
+    if (generalContentArea && saveCookiesButton && acceptCookiesButton && categoryItems.length) {
+      for (let i = 0; i < categoryItems.length; i++) {
+        if (i === 0) {
+          // Add listener to first item in list only. 
+          categoryItems[0].addEventListener('keydown', function(e) {
+            if (e.shiftKey === true && e.keyCode === Keyboard.TAB) {
+              // Look for shift + tab key
+              // Time out needed to prevent collision with OneTrust listener on tab key
+              setTimeout(function(){ 
+                acceptCookiesButton.focus(); 
+              }, 100);
+            } 
+            if (e.shiftKey === false && e.keyCode === Keyboard.TAB) {
+              // Look for tab key
+              // Time out needed to prevent collision with OneTrust listener on tab key
+              setTimeout(function(){ 
+                generalContentArea.focus(); 
+              }, 100);
+            }
+          });
+        } else {
+          // Captures focus to only OneTrust tool. Prevents shift tab from going into page level elements
+          categoryItems[i].addEventListener('keydown', function(e) {
+            if (e.shiftKey === true && e.keyCode === Keyboard.TAB) {
+              // Look for shift + tab key
+              // Time out needed to prevent collision with OneTrust listener on tab key
+              setTimeout(function(){ 
+                acceptCookiesButton.focus(); 
+              }, 100);
+            }
+          });
+        }
       }
     }
-    c.click(function(f) {
-      b(f.currentTarget)
-    })
-    c.keydown(function(f) {
-      if (f.keyCode === 32) {
-        b(f.currentTarget)
+    
+    // OneTrust activates menu items with left and right arrow keys. 
+    // We just need to look for the active item and pass it into toggleButtons()
+    function toggleArrowKeyDirection() {
+      // Check for active menu then pass it into toggle button function
+      for (let i = 0; i < categoryItems.length; i++) {
+        if (categoryItems[i].classList.contains('ot-active-menu')) {
+          toggleButtons(categoryItems[i]);
+        }
       }
-    })
-    d.keydown(function(f) {
-      if (f.key === "Enter" || f.key === " ") {
-        a("#onetrust-consent-sdk").hide()
-        a(".optanon-toggle-display").focus()
+    }
+  }
+
+  function waitForOneTrustContainer() {
+    // Container may not be on the page at the time of page load, wait for it
+    var oneTrustStatusInterval = setInterval(function () {
+      // Try to set one trust container
+      oneTrustContainer = document.querySelector('#onetrust-pc-sdk');
+      // Check that we have a container
+      if (oneTrustContainer !== undefined && oneTrustContainer !== null && oneTrustContainer) {
+        // If we have a container, proceed with change button wireup. Then clear interval.
+        changeButtons();
+        clearInterval(oneTrustStatusInterval);
       }
-    })
-    e.keydown(function(f) {
-      if (f.key === "Enter" || f.key === " ") {
-        a("#onetrust-consent-sdk").hide()
-        a(".optanon-toggle-display").focus()
+  
+      if (count++ > 10) {
+        // timeout if this takes more than 5 sec
+        clearInterval(oneTrustStatusInterval);
       }
-    })
+    }, 500);
   }
-  SfdcWwwBase.oneTrustComponent.changeTabText = function() {
-    var b = a(
-      ".menu-item-about, .menu-item-necessary, .menu-item-functional, .menu-item-advertising"
-    )
-    a(".menu-item-about")
-      .find(".preference-menu-item")
-      .addClass("preference-menu-text")
-    b.click(function() {
-      b.find(".preference-menu-item").removeClass("preference-menu-text")
-    })
-    a(".menu-item-about").click(function() {
-      a(".menu-item-about")
-        .find(".preference-menu-item")
-        .addClass("preference-menu-text")
-    })
-    a(".menu-item-necessary").click(function() {
-      a(".menu-item-necessary")
-        .find(".preference-menu-item")
-        .addClass("preference-menu-text")
-    })
-    a(".menu-item-functional").click(function() {
-      a(".menu-item-functional")
-        .find(".preference-menu-item")
-        .addClass("preference-menu-text")
-    })
-    a(".menu-item-advertising").click(function() {
-      a(".menu-item-advertising")
-        .find(".preference-menu-item")
-        .addClass("preference-menu-text")
-    })
-  }
-  SfdcWwwBase.oneTrustComponent.overrideSettings = function() {
-    var b = a("#onetrust-pc-sdk #vendors-list").find(
-      "#accept-recommended-btn-handler"
-    )
-    b.addClass("optanon-ghost-button")
-    a(
-      ".menu-item-about, .menu-item-necessary, .menu-item-functional, .menu-item-advertising, .optanon-white-button-middle"
-    ).mousedown(function(c) {
-      c.preventDefault()
-    })
-    a(".optanon-toggle-display").click(function() {
-      a("#onetrust-consent-sdk").show()
-      a(".active-group").focus()
-      a(".optanon-alert-box-wrapper").hide()
-    })
-    a(".optanon-toggle-display").keydown(function(c) {
-      if (c.key === "Enter" || c.key === " ") {
-        a(".optanon-toggle-display").click()
+
+  // OneTrust provided script to remove old cookies set by previous version of OneTrust tool
+  function oneTrustCookieFix() {
+    var now = new Date();
+    now.setTime(now.getTime() + 1 * 3600 * 1000 * 24 * 365); 
+
+    function delete_cookie() {
+      if ( !getCookie('cleared-onetrust-cookies')) {
+        document.cookie = 'OptanonAlertBoxClosed' + '=' + '; path=/' + ';expires=Thu, 01 Jan 1970 00:00:01 GMT';
+        document.cookie = 'OptanonConsent' + '=' + '; path=/' + ';expires=Thu, 01 Jan 1970 00:00:01 GMT';
       }
-    })
-    a(".optanon-status-checkbox").click(function() {
-      a(".optanon-status-checkbox").blur()
-    })
-    a("#optanon-popup-wrapper").removeAttr("tabindex")
-    a("#optanon-popup-wrapper").attr("data-keyboard", "false")
-    a("#optanon-popup-wrapper").attr("data-backdrop", "static")
+      document.cookie = 'cleared-onetrust-cookies' + '=' + '; path=/' + '; domain=.salesforce.com' + '; expires='+now;
+    }
+    function getCookie( cookieName ) {
+      var value = '; ' + document.cookie;
+      var parts = value.split( '; ' + cookieName + '=' ); 
+      if ( parts.length == 2 ) {
+        return true;
+      } 
+    }
+
+    delete_cookie();
   }
-  SfdcWwwBase.oneTrustComponent.init = function() {
-    a(window).on("load", function() {
-      SfdcWwwBase.oneTrustComponent.overrideSettings()
-      SfdcWwwBase.oneTrustComponent.changeButtons()
-      SfdcWwwBase.oneTrustComponent.changeTabText()
-    })
+  
+  function init() {
+    oneTrustCookieFix();
+    waitForOneTrustContainer();
   }
-  a(document).ready(function() {
-    SfdcWwwBase.oneTrustComponent.init()
-  })
-})(jQuery)
+
+  return {
+    init: init,
+    oneTrustComponent: oneTrustComponent
+  }
+  
+}());
+
+function runOneTrustComponent() {
+  oneTrustComponent.init();
+}
+
+// In case the document is already rendered
+if (document.readyState!='loading') runOneTrustComponent();
+// Modern browsers
+else if (document.addEventListener) document.addEventListener('DOMContentLoaded', runOneTrustComponent);
+// IE <= 8
+else document.attachEvent('onreadystatechange', function(){
+  if (document.readyState=='complete') runOneTrustComponent();
+});
